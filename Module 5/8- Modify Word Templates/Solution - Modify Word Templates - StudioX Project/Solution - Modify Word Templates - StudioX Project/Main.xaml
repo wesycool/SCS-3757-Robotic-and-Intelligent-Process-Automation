@@ -1,0 +1,181 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="555.2,3421.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/word" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:uasb="clr-namespace:UiPath.Activities.System.Binding;assembly=UiPath.System.Activities" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="48">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Activities.System.Binding</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Word</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="38">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <ueab:SequenceX sap:VirtualizedContainerService.HintSize="565.6,3356.8" sap2010:WorkflowViewState.IdRef="SequenceX_1">
+    <ueab:SequenceX.Variables>
+      <Variable x:TypeArguments="ue:IWorkbookQuickHandle" Default="[new WorkbookQuickHandle(workbookPath:=&quot;Project_Notebook.xlsx&quot;,visible:=True,autoSave:=False,createNew:=True,readOnly:=False,isWorkspace:=True)]" Name="Notes" />
+      <Variable x:TypeArguments="uasb:BindingsRepository" Default="[new UiPath.Activities.System.Binding.BindingsRepository()]" Name="Saved" />
+    </ueab:SequenceX.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard CloseMode="{x:Null}" OpenMode="{x:Null}" sap2010:Annotation.AnnotationText="the robot opens a browser window that opens the Google Searh result page for &quot;euro exchange rate&quot;" DisplayName="Use Browser Chrome: euro exchange rate - Google Search" sap:VirtualizedContainerService.HintSize="522.4,601.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,342.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NGetText sap2010:Annotation.AnnotationText="The robots gets the exchange rate and saves it for later use in &quot;Exchange Rate&quot; value.&#xD;&#xA;&#xD;&#xA;This way, the robot can use the value outside the resource." DisplayName="Get Text 'Euro'" sap:VirtualizedContainerService.HintSize="356.8,251.2" sap2010:WorkflowViewState.IdRef="NGetText_1">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="255, 408, 88, 51" ElementType="Text" FriendlyName="'SPAN'" FullSelectorArgument="&lt;html app='chrome.exe' title='euro exchange rate - Google Search' /&gt;&lt;webctrl aaname='4.83' parentid='knowledge-currency__updatable-data-column' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='euro exchange rate - Google Search' /&gt;&lt;webctrl aaname='4.83' parentid='knowledge-currency__updatable-data-column' tag='SPAN' type='' /&gt;" InformativeScreenshot="d69001f1efff25df205c5dc5e3bc0a48.png" SearchSteps="Selector, FuzzySelector">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="271, 378, 40, 24" ElementType="Text" FriendlyName="'Euro'" FullSelectorArgument="&lt;html app='chrome.exe' title='euro exchange rate - Google Search' /&gt;&lt;webctrl aaname='Euro' parentid='knowledge-currency__updatable-data-column' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='euro exchange rate - Google Search' /&gt;&lt;webctrl aaname='Euro' parentid='knowledge-currency__updatable-data-column' tag='SPAN' type='' check:text='Euro' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAcCAYAAAAa/l2sAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGrSURBVFhH7ZbPSwJBGIb7kz0YsUoSg7iHOaxBB4UQUsQEEQkvrYc9LORJTGoRpPAkmEhEhzqEvM3sfqlbra7W+gP2gUH8vm/Xx2F9xwPsGaFw0ITCQRMKB82+C4+g8xgih4uWBv2JxreAhzBHulRG/telw3ql8S3gIVxEhyq7xh+EF8zeFUU9BrUxosJstjUwkU0m7H7eorbg9cFE7pQhSo9eNJVBpf1M3RkbFmZQEuI1ruI4qaLSdbrDm3MoUjSuIVs3YdSLSDM5HwOf3sNhw8JC4HqAD6ravDSRPhK9VBW9N6pJJuIaTV7DURtQTeAh7LXmE2IdYfFITKhEDBuaPZttub6GQ7dq77xSeaSCp7BXSswnxHrC32c7BVk/gz6mgot75ORGaQa+2hv/0blnl30eCXMDQ6psWXjJDk9ud0/4n55hP8KAVZKzDJcUTw7vYteYb+FZSlyhP++8Wkr4PJp7zg5EFJGfdk/kJx0KvoUF0xxmGeREDjcb5VVzeNFy//kZt6vgJySpMPCCiX7fgCre+xWW/DzpLlCzlp50u08oHDShcNDsmTDwCXc5DkVJ23OiAAAAAElFTkSuQmCC" IsTextSameAsAaName="True" SearchSteps="Selector, FuzzySelector, Image, TextFindAll" Text="Euro" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='SPAN' type='' /&gt;" />
+                      <uix:Target DesignTimeRectangle="255, 378, 376, 24" FriendlyName="'1 Euro equals'" FullSelectorArgument="&lt;html app='chrome.exe' title='euro exchange rate - Google Search' /&gt;&lt;webctrl aaname='  equals' parentid='knowledge-currency__updatable-data-column' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='euro exchange rate - Google Search' /&gt;&lt;webctrl aaname='  equals' parentid='knowledge-currency__updatable-data-column' tag='DIV' type='' check:text='1 Euro equals' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAXwAAAAcCAYAAABiZAQkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAVXSURBVHhe7ZvxSyJNGMffP7kfOsJCCYs8WF70eBMSrsBEOkEkpAtaoYV6eQ1ELDq5kBMRktc7JA55MULk+87sjrluq25W71u33w8M4eyzO7sbfGb2mZnfQAghxBdQ+IQQ4hMofEII8QkUPiGE+AQKnxBCfAKFTwghPoHCJ4QQn0Dhvzm+YOfdMhY0A21VQwghXpgs/EEf7UsDOx/C0Ao/VOUsfkDXhIykkCaWKPTvKpzMAYVPCJmPB8Lv3zRRzG0hGBhJOvJo4WuI7WWw61p0VLsqnMwBhU8ImQ+H8JVM3oUQjOdRPPw4p/DTuFA15Lmh8Akh8+EQfgsXZ0107tTPy/QLCn9K7IN2R7Hl1ikS6yHz+G5VHRZ0v52a6adFKUNRFje2kK3cqKMeuDlHNq5hcWnW+bdoFJJYW7HiFlY0JApNURcVv23pqu8GIvJ46ouqGHGRkuc6U1u3uD7LI7ZhPZvsdANaEvo35+fQBOH3b1DObCI4vK9AGFrqFI2eOk4I8T3TJ21fnfDDCITE35UIgusRZL9aR9t/fURASm4lisTBKYyDNGJhGb/sbf7hbwOaFH14CzvO84/t5/dR3Qub9VasAT2XRERK1uwo5hX+raizrhv8IwP97BzFQkbdQ1h0bH0VJ3ER/kC8n6iMDSGynYd+YiC7HbU6v9UMqsMOnBDia96Y8IWAj1pCuzZ+FhGTst3IoWYfzd5LUMN+S9W5MWhif0PEaTqu7RcW53+WbS4lUR4Ks3WINVO2OtoDVSfp1fFJXmNe4d8UxVeL6MRS5xgbkPdKiMtrxIsYjfNdhF/NmO8muN9UFRbtI/nVsYzYn5w0IYS8mPAnFfuodh7hp1G2i1bQNlMpy0iUx7oBi685c+QfyNZVhQs1KyZReni+de0wPtWs3418ZGJbDyT+6JSOG+q5x9I3LsKf9H/q36Lb7aLHET4hRPBCwp+0Sse+Qmc+4TtjLXluQu+oijGUHKMGXA8Lhh3GtLJzacVOE/WThT/oWjl8bTQPcV9mCf/uCrurMtaabDeqTXR6Lh0gIcTXvLGUjjN2VnsucnQwHMUnjs9RrriXxk8r1hK1e1tPE/4whx9CJGWgWKnjWozMu9069t8773/CM8lJW8dy2sXf0zAatyqAEOJ33rjwh/KcMMIfnHsU/mgUP41pbT1J+CqttJYfz8HfP7cX4dvo/9NC7SSHiCn/UUqKEOJv3rzwn5rD75eS5vmBzJWqmUz7SDNj3TqHpwi/c7w54bpN7K+L2KnC76Ndk18idXQc8xto5BGUsXuzn40Q8uvzPwofqO7JWDECVcsrLUZLFL0If7RKJ4+G3fleV+ncCYHKpZ5CwJ9b451Gv6UjniyNRPqYVTq4wq68r1AO1bFY0Z6Zb7fFqvccEGIe3UEf10dWRzBrhF/LyvcVxk7Fkb7xMmlNCPEN//GkrSy2iVuVylgIRJEwj6URU5uqPAtfcL8OX62jH61h97YOv3eZQVDKeSmCWPIQxpltHXvUvlxzfB3+bqEE40Ctw5d1Y8IfingZi1rSevakPcduix2IDsPsBGTeXcaq97AUUhvB7M/tktK570TkOnxx/5US9D3RlvlMm2P3RAjxLy8k/GllXIqdSg7aqpL8cHdow0qHeBW+5OFO2yT2q9532vY7jp22q6ITKtTRdaZJJuy0LTpTOpKBtfs1oCS/uLqJnROXXbmSXhP69rD9EAIf0jht3eA07ryui/Al3TqM1PhO20g8j/IjNhsTQn5tpgufeOZBDp8QQl4ZFP4zQeETQl47FP4zQeETQl47FP4zQeETQl47FD4hhPgECp8QQnwB8C8pW5oL19v4rAAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image, TextFindAll" Text="1 Euro equals" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='DIV' type='' /&gt;" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+              <uix:NGetText.Text>
+                <OutArgument x:TypeArguments="ue:ExcelValue">[Saved.Values(Of ExcelValue)("Exchange Rate")]</OutArgument>
+              </uix:NGetText.Text>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NGetText>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAARHSURBVFhHvZddbBRVFMf7YrAq+OSbD6Kgb0qUUh60xq9VtA8k1EJrH1CsGIM+GLUmBA0kFi0WSMCHLcVCTMO2GmjFCiUFpH60sUjMEtIGLaAWama32w92dt2vOf7PndPd3M7sdmobf8k/M/fec8//zJ07s7NFXrEsawlUnclkmqEBaAxKisLS14yYKo6VafMHyR5A4hYoTh5BbAw6iLnLJc3cQZ7bkKQRSttp5w7mpqBdKKRY0noDE+7HxEuSZ94gVxA5l0n6wiDwYUwIyVyN9I0RMls/p4l33qDwi8+R4VtNxjOlFF7no/G3XyfzcBOlR/6UaB3kNHBYITbuyJU7zNOj12ly+/tkPL2KjKdKCgsxkx++p+bMhIvIuxIYuB0BjmWPn+qi0Atl7mYFFCp/nP45e0qy5IAH3w7nnsBAo8RkMY8cck3uVVMN2yWTDrwaxNYGFfGjpu12vnK3pKxIbRVFD+yj+DdHKd51DOf7KfJatRYztbueyLIkmw68UtqtQEeLjCl4s4Wef0xLyBqrWUuJ8/0S5SQx0EfhDeV0c/+n0pMfeDYrc5zfiYb2konufdNhPr7lZbKmpiQiP5YZlbPCwNPEKizm5a+WPoUVG6ZU9yKarLsna86PXGYiIhELB7zX8/I3S1uRuVpPqZ5blMx9d1FozUqKnzwuowsLvP1cwIC0FelffNkCWImjS4lSKRldWODdzwWMSVuR6r1bKyB9sUpG3Hnyo6hnnb2kXwi8DS4gKW1F6vQirYDM79tkxB03o3xq/VGz4gIS/2sBLecSMstmuoCwtBWOWxDcICPuuBnlU3u/YwXULdA34YVntQJGeh+kZGbum/CKkXEUcG7QsQfUJpzxGH6cNT/etZQeDayljuEeGfVOoC/pKGB0Qn81w9vPLyJtm1uxqxTrKab6jkdoZWCdkq/jFQrHxyVidm7GLarYa2rmG/0xGc0B70ouYAkq0Ub39O3Imk+rpvtdmkjM/ipO4iet7khcM2e1Oe+/icMd6vcAjYN2t82NqEFlX73kKKL8683Ue/28RDm5PH6NNnUGYDipmfNqxBKO5W9S5gxWYTk6tB1y4lqvo4BpVXz7FjVeaKH2yyfoy99O0mfBVnq1ZyuVBCrUeOmhOnrik7+yBXw/pH/XwisJz/vE3gadu2Q8yxdDnQ5zrypp3Uhlu392PPsMvHaKbQ7082f4RTskR/cfP+B21LiaFFJpWyUdCHZKlhzw+BWHW8VWB8uyDAH89aoxaoZo6097aFWbvcSzafOZD2gwMiyzcyD33zjcK3buIGCFWxEMb87Dg8doy3c7aE1nLa1ur1RX6uvYRLWnt6m9MBS5ItE6bI4LfEhsCiMrEZS58wa5eNkLX/lMUEQxJjZA//ljAHP5j+tOnLrfcy/IavA/Yn5xeIJjoSbM1R+1+YBki6H1SOyH+iEDSoj4nPv8iKlEDfYbblaKiv4FoeF/NqqvoEMAAAAASUVORK5CYII=" InformativeScreenshot="253682350dafa2f55100441c977be05b.png" Selector="&lt;html app='chrome.exe' title='euro exchange rate - Google Search'/&gt;" Url="https://www.google.com/search?q=euro+exchange+rate&amp;rlz=1C1GCEA_enRO853RO853&amp;oq=Euro+Exchange+rate&amp;aqs=chrome.0.0l8.4604j1j4&amp;sourceid=chrome&amp;ie=UTF-8" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <p:WordApplicationScope sap2010:Annotation.AnnotationText="The robot opens the Contract for Sale of Goods Word file and..." DisplayName="Use Word File" FilePath="Contract for Sale of Goods.docx" sap:VirtualizedContainerService.HintSize="522.4,2624" sap2010:WorkflowViewState.IdRef="WordApplicationScope_1">
+      <p:WordApplicationScope.Body>
+        <ActivityAction x:TypeArguments="ui:WordDocument">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ui:WordDocument" Name="WordDocumentScope" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="510.4,2454.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ueab:ExcelApplicationCard Password="{x:Null}" sap2010:Annotation.AnnotationText="...using data from the Excel file starts replacing the placeholder text.&#xD;&#xA;" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="467.2,2125.6" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" WorkbookPath="Contract for Sale of Goods - Mook Data.xlsx">
+              <ueab:ExcelApplicationCard.Body>
+                <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="contractData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="455.2,1851.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Replace Text: [Company Name]" sap:VirtualizedContainerService.HintSize="412,137.6" sap2010:WorkflowViewState.IdRef="WordReplaceText_1" Replace="[contractData.Sheet(&quot;Contract Data&quot;).Cell(&quot;B23&quot;)]" Search="%[COMPANY NAME]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Replace Text: [Company Address]" sap:VirtualizedContainerService.HintSize="412,137.6" sap2010:WorkflowViewState.IdRef="WordReplaceText_2" Replace="[contractData.Sheet(&quot;Contract Data&quot;).Cell(&quot;C23&quot;)]" Search="%[COMPANY ADDRESS]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Replace Text [Seller Name]" sap:VirtualizedContainerService.HintSize="412,137.6" sap2010:WorkflowViewState.IdRef="WordReplaceText_3" Replace="[contractData.Sheet(&quot;Contract Data&quot;).Cell(&quot;D23&quot;)]" Search="%[SELLER NAME]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Replace Text [Seller Address]" sap:VirtualizedContainerService.HintSize="412,137.6" sap2010:WorkflowViewState.IdRef="WordReplaceText_4" Replace="[contractData.Sheet(&quot;Contract Data&quot;).Cell(&quot;E23&quot;)]" Search="%[SELLER ADDRESS]" />
+                    <p:WordInsertDataTable Bookmark="{x:Null}" OccurrenceIndex="{x:Null}" sap2010:Annotation.AnnotationText="This activity tells the robot to insert Table1 from the Excel file. It will replace the &quot;&lt;Insert Table here&gt;&quot; placeholder text." DataTable="[contractData.Table(&quot;Table1&quot;)]" DisplayName="Insert DataTable" sap:VirtualizedContainerService.HintSize="412,339.2" sap2010:WorkflowViewState.IdRef="WordInsertDataTable_1" InsertRelativeTo="Text" Position="Replace" Text="&lt;Insert Table here&gt;">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </p:WordInsertDataTable>
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Replace Text: [Total]" sap:VirtualizedContainerService.HintSize="412,137.6" sap2010:WorkflowViewState.IdRef="WordReplaceText_5" Replace="[contractData.Sheet(&quot;Goods&quot;).Cell(&quot;E11&quot;)]" Search="%[TOTAL]" />
+                    <p:WordReplacePicture DisplayName="Replace Picture: Seller Logo" sap:VirtualizedContainerService.HintSize="412,137.6" sap2010:WorkflowViewState.IdRef="WordReplacePicture_1" PictureAltText="Logo_Seller" PicturePath="Seller Logo.png" />
+                    <p:WordReplacePicture DisplayName="Replace Picture: Buyer Logo" sap:VirtualizedContainerService.HintSize="412,137.6" sap2010:WorkflowViewState.IdRef="WordReplacePicture_2" PictureAltText="Logo_Buyer" PicturePath="Buyer Logo.png" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Replace Text: Date" sap:VirtualizedContainerService.HintSize="412,137.6" sap2010:WorkflowViewState.IdRef="WordReplaceText_6" Replace="[contractData.Sheet(&quot;Contract Data&quot;).Cell(&quot;A23&quot;)]" Search="%[DATE]" />
+                  </Sequence>
+                </ActivityAction>
+              </ueab:ExcelApplicationCard.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ueab:ExcelApplicationCard>
+            <p:WordReplaceText Found="{x:Null}" sap2010:Annotation.AnnotationText="Remember the value saved for later use at the begining of the project? We use it here to replace the &quot;[EUR EXCHANGE RATE]&quot; placeholder text." DisplayName="Replace Text: exchange rate" sap:VirtualizedContainerService.HintSize="467.2,197.6" sap2010:WorkflowViewState.IdRef="WordReplaceText_7" Replace="[Saved.Values(Of ExcelValue)(&quot;Exchange Rate&quot;)]" Search="%[EUR EXCHANGE RATE]">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </p:WordReplaceText>
+          </Sequence>
+        </ActivityAction>
+      </p:WordApplicationScope.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </p:WordApplicationScope>
+  </ueab:SequenceX>
+</Activity>

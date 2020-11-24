@@ -1,0 +1,39 @@
+{
+  "name": "MovingAndRenamingFiles",
+  "description": "Moving a couple of files to a specific folder.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.ComplexScenarios.Activities": "[1.0.2-beta.844296]",
+    "UiPath.Excel.Activities": "[2.8.3-beta.848207]",
+    "UiPath.Mail.Activities": "[1.8.3-beta.847502]",
+    "UiPath.System.Activities": "[20.4.0-beta.847926]",
+    "UiPath.UIAutomationNext.Activities": "[20.4.0-beta.848233]",
+    "UiPath.Word.Activities": "[1.4.2-beta.847609]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "exceptionHandlerWorkflow": "GlobalHandlerX.xaml",
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Business",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
