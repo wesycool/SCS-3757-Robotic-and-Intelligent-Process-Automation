@@ -59,15 +59,8 @@
           "lib/net40/DocX.dll": {}
         }
       },
-      "Extended.Wpf.Toolkit/2.8.0": {
+      "Extended.Wpf.Toolkit/3.8.1": {
         "type": "package",
-        "frameworkAssemblies": [
-          "PresentationCore",
-          "PresentationFramework",
-          "System",
-          "System.Xaml",
-          "WindowsBase"
-        ],
         "compile": {
           "lib/net40/_._": {}
         },
@@ -76,10 +69,12 @@
           "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
           "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
           "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
-          "lib/net40/Xceed.Wpf.DataGrid.dll": {},
           "lib/net40/Xceed.Wpf.Toolkit.dll": {}
         },
         "resource": {
+          "lib/net40/cs-CZ/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "cs-CZ"
+          },
           "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll": {
             "locale": "de"
           },
@@ -539,7 +534,7 @@
           }
         }
       },
-      "UiPath.OCR.Contracts/2.6.0-beta.835380": {
+      "UiPath.OCR.Contracts/2.6.0": {
         "type": "package",
         "compile": {
           "lib/net461/_._": {}
@@ -760,10 +755,10 @@
           }
         }
       },
-      "UiPath.Vision/2.0.3-beta.853545": {
+      "UiPath.Vision/2.0.3": {
         "type": "package",
         "dependencies": {
-          "UiPath.OCR.Contracts": "2.6.0-beta.835380"
+          "UiPath.OCR.Contracts": "2.6.0"
         },
         "compile": {
           "lib/net461/_._": {}
@@ -983,24 +978,23 @@
         "lib/net40/DocX.dll"
       ]
     },
-    "Extended.Wpf.Toolkit/2.8.0": {
-      "sha512": "wKjJl4sDyXTVzgiKTBTw8jT0/3OwpEklQuWGe1Nz2HX0joiBeUzIurY2mnERni+8XHwateRcuks6yk/cuR22fA==",
+    "Extended.Wpf.Toolkit/3.8.1": {
+      "sha512": "eSD4/BY/xV29KaQi9A65VscpeU3rSrlvadIUepSx5ukeUajW3ph8+n4AlOswRMszbD4DDmrJ4g5O51bCUpiOjw==",
       "type": "package",
-      "path": "extended.wpf.toolkit/2.8.0",
+      "path": "extended.wpf.toolkit/3.8.1",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "extended.wpf.toolkit.2.8.0.nupkg.sha512",
+        "LICENSE.txt",
+        "extended.wpf.toolkit.3.8.1.nupkg.sha512",
         "extended.wpf.toolkit.nuspec",
-        "lib/net35/WPFToolkit.dll",
-        "lib/net35/Xceed.Wpf.Toolkit.dll",
         "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
         "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
         "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
         "lib/net40/Xceed.Wpf.AvalonDock.dll",
-        "lib/net40/Xceed.Wpf.DataGrid.dll",
         "lib/net40/Xceed.Wpf.Toolkit.dll",
+        "lib/net40/cs-CZ/Xceed.Wpf.AvalonDock.resources.dll",
         "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll",
         "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll",
         "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll",
@@ -1445,15 +1439,15 @@
         "uipath.mail.activities.nuspec"
       ]
     },
-    "UiPath.OCR.Contracts/2.6.0-beta.835380": {
-      "sha512": "mIbDOazD18hFGsLUZJB9PoL5MTdh6MvIDZtezeYDni4PVHjv4N8zQEYX+1bnoZ2dVq+y+GQ+6GgYTz2hD04dkg==",
+    "UiPath.OCR.Contracts/2.6.0": {
+      "sha512": "0Tv26CBTQin1onkfqBH5+U+7ZEzGIakBr58bf3S+wXKbwQidTLEIR/f/jEGd5gxUxMXsq8k8jzJJo0swb0x0MA==",
       "type": "package",
-      "path": "uipath.ocr.contracts/2.6.0-beta.835380",
+      "path": "uipath.ocr.contracts/2.6.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net461/UiPath.OCR.Contracts.dll",
-        "uipath.ocr.contracts.2.6.0-beta.835380.nupkg.sha512",
+        "uipath.ocr.contracts.2.6.0.nupkg.sha512",
         "uipath.ocr.contracts.nuspec"
       ]
     },
@@ -1620,10 +1614,10 @@
         "uipath.uiautomationnext.activities.nuspec"
       ]
     },
-    "UiPath.Vision/2.0.3-beta.853545": {
-      "sha512": "IPdGyehYDSqB1tfO47HLoTpeaf5Vnd6yD5yC1dcRQp0g2shy/p+y54rmtwR053i1R4pkPfagFzpspRAZHf939w==",
+    "UiPath.Vision/2.0.3": {
+      "sha512": "tl1L/gV0kAAal7n+I/3XWcG3yRQES98J/lJ2u2Vanq9h1eqG0BoFw2MMCqTwRzO8n/0CVCbLLjn5V/OYfaQv7A==",
       "type": "package",
-      "path": "uipath.vision/2.0.3-beta.853545",
+      "path": "uipath.vision/2.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1665,7 +1659,6 @@
         "build/UiPath.Vision.Tesseract.dll",
         "build/UiPath.Vision.dll",
         "build/ZedGraph.dll",
-        "build/Zlib.Portable.dll",
         "build/grpc_csharp_ext.x64.dll",
         "build/grpc_csharp_ext.x86.dll",
         "build/nlog.config",
@@ -1684,7 +1677,7 @@
         "lib/net461/UiPath.Vision.MicrosoftCloud.dll",
         "lib/net461/UiPath.Vision.Tesseract.dll",
         "lib/net461/UiPath.Vision.dll",
-        "uipath.vision.2.0.3-beta.853545.nupkg.sha512",
+        "uipath.vision.2.0.3.nupkg.sha512",
         "uipath.vision.nuspec"
       ]
     },
@@ -1748,15 +1741,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bianca.dragu\\.nuget\\packages\\": {}
+    "C:\\Users\\edmun\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "How to Troubleshoot Your Robot",
       "projectName": "How to Troubleshoot Your Robot",
-      "projectPath": "C:\\Users\\bianca.dragu\\Documents\\UiPath\\How to Troubleshoot Your Robot\\.local",
-      "packagesPath": "C:\\Users\\bianca.dragu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bianca.dragu\\Documents\\UiPath\\How to Troubleshoot Your Robot\\.local"
+      "projectPath": "C:\\Users\\edmun\\Desktop\\SCS-3757-Robotic-and-Intelligent-Process-Automation\\Module 6\\2- How to Troubleshoot Your Robot\\How to Troubleshoot Your Robot - Working Documents\\How to Troubleshoot Your Robot\\.local",
+      "packagesPath": "C:\\Users\\edmun\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\edmun\\Desktop\\SCS-3757-Robotic-and-Intelligent-Process-Automation\\Module 6\\2- How to Troubleshoot Your Robot\\How to Troubleshoot Your Robot - Working Documents\\How to Troubleshoot Your Robot\\.local"
     },
     "frameworks": {
       "net461": {
@@ -1794,5 +1787,27 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "UiPath.UIAutomationNext.Activities 20.4.0-beta.869873 depends on Extended.Wpf.Toolkit (>= 2.8.0) but Extended.Wpf.Toolkit 2.8.0 was not found. An approximate best match of Extended.Wpf.Toolkit 3.8.1 was resolved.",
+      "libraryId": "Extended.Wpf.Toolkit",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "UiPath.UIAutomationNext.Activities 20.4.0-beta.869873 depends on UiPath.Vision (>= 2.0.3-beta.853545) but UiPath.Vision 2.0.3-beta.853545 was not found. An approximate best match of UiPath.Vision 2.0.3 was resolved.",
+      "libraryId": "UiPath.Vision",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1"
+      ]
+    }
+  ]
 }

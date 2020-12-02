@@ -6,9 +6,9 @@
         "Version": "1.0.2-beta.861594"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.complexscenarios.activities/1.0.2-beta.861594\\lib/net461/UiPath.ComplexScenarios.Design.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.complexscenarios.activities/1.0.2-beta.861594\\lib/net461/UiPath.ComplexScenarios.Design.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.complexscenarios.activities\\1.0.2-beta.861594"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\uipath.complexscenarios.activities\\1.0.2-beta.861594"
     },
     {
       "Package": {
@@ -16,20 +16,20 @@
         "Version": "2.8.3-beta.867639"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\sharpziplib/1.0.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.excel.activities/2.8.3-beta.867639\\lib/net461/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.excel.activities/2.8.3-beta.867639\\lib/net461/UiPath.Excel.Activities.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.excel.activities/2.8.3-beta.867639\\lib/net461/UiPath.Excel.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\sharpziplib/1.0.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.excel.activities/2.8.3-beta.867639\\lib/net461/UiPath.Excel.Activities.Design.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.excel.activities/2.8.3-beta.867639\\lib/net461/UiPath.Excel.Activities.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.excel.activities/2.8.3-beta.867639\\lib/net461/UiPath.Excel.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.excel.activities\\2.8.3-beta.867639"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\uipath.excel.activities\\2.8.3-beta.867639"
     },
     {
       "Package": {
@@ -37,18 +37,18 @@
         "Version": "1.8.3-beta.865074"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\bouncycastle/1.8.5\\lib/BouncyCastle.Crypto.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\interop.domino.dll/1.0.0\\lib/Interop.Domino.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.mail.activities/1.8.3-beta.865074\\lib/net461/MailKit.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.mail.activities/1.8.3-beta.865074\\lib/net461/MimeKit.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.mail.activities/1.8.3-beta.865074\\lib/net461/UiPath.Mail.Activities.Design.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.mail.activities/1.8.3-beta.865074\\lib/net461/UiPath.Mail.Activities.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.mail.activities/1.8.3-beta.865074\\lib/net461/UiPath.Mail.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\bouncycastle/1.8.5\\lib/BouncyCastle.Crypto.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\interop.domino.dll/1.0.0\\lib/Interop.Domino.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.mail.activities/1.8.3-beta.865074\\lib/net461/MailKit.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.mail.activities/1.8.3-beta.865074\\lib/net461/MimeKit.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.mail.activities/1.8.3-beta.865074\\lib/net461/UiPath.Mail.Activities.Design.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.mail.activities/1.8.3-beta.865074\\lib/net461/UiPath.Mail.Activities.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.mail.activities/1.8.3-beta.865074\\lib/net461/UiPath.Mail.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.mail.activities\\1.8.3-beta.865074"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\uipath.mail.activities\\1.8.3-beta.865074"
     },
     {
       "Package": {
@@ -56,24 +56,24 @@
         "Version": "20.4.0-beta.864462"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\microsoft.aspnet.signalr.client/2.4.0\\lib/net45/Microsoft.AspNet.SignalR.Client.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.20\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/ActiproSoftware.Text.Wpf.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/UiPath.OrchestratorClient.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/UiPath.System.Activities.Design.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/UiPath.System.Activities.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\microsoft.aspnet.signalr.client/2.4.0\\lib/net45/Microsoft.AspNet.SignalR.Client.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.20\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.864462\\lib/net461/UiPath.System.Activities.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462"
     },
     {
       "Package": {
@@ -81,33 +81,32 @@
         "Version": "20.4.0-beta.869873"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\system.threading.tasks.dataflow/4.10.0\\lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath/20.4.7391.34509\\lib/UiPath.Interop.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.ocr.contracts/2.6.0-beta.835380\\lib/net461/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.platform/20.4.0-beta.861233\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.telemetry.client/1.1.36\\lib/net461/TelemetryClient.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.uiautomationnext.activities/20.4.0-beta.869873\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.uiautomationnext.activities/20.4.0-beta.869873\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.uiautomationnext.activities/20.4.0-beta.869873\\lib/net461/UiPath.UIAutomationNext.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.Core.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.Microsoft.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.MicrosoftCloud.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.Toolkit.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\system.threading.tasks.dataflow/4.10.0\\lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath/20.4.7391.34509\\lib/UiPath.Interop.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.ocr.contracts/2.6.0\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.platform/20.4.0-beta.861233\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.telemetry.client/1.1.36\\lib/net461/TelemetryClient.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.uiautomationnext.activities/20.4.0-beta.869873\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.uiautomationnext.activities/20.4.0-beta.869873\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.uiautomationnext.activities/20.4.0-beta.869873\\lib/net461/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.Core.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.MicrosoftCloud.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.Tesseract.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.uiautomationnext.activities\\20.4.0-beta.869873"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\uipath.uiautomationnext.activities\\20.4.0-beta.869873"
     },
     {
       "Package": {
@@ -115,12 +114,12 @@
         "Version": "1.4.2-beta.861587"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\docx/1.0.0.18\\lib/net40/DocX.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.word.activities/1.4.2-beta.861587\\lib/net461/UiPath.Word.Activities.Design.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.word.activities/1.4.2-beta.861587\\lib/net461/UiPath.Word.Activities.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.word.activities/1.4.2-beta.861587\\lib/net461/UiPath.Word.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\docx/1.0.0.18\\lib/net40/DocX.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.word.activities/1.4.2-beta.861587\\lib/net461/UiPath.Word.Activities.Design.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.word.activities/1.4.2-beta.861587\\lib/net461/UiPath.Word.Activities.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.word.activities/1.4.2-beta.861587\\lib/net461/UiPath.Word.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.word.activities\\1.4.2-beta.861587"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\uipath.word.activities\\1.4.2-beta.861587"
     }
   ],
   "Conflicts": [],
@@ -162,7 +161,7 @@
     },
     "Extended.Wpf.Toolkit": {
       "Id": "Extended.Wpf.Toolkit",
-      "Version": "2.8.0",
+      "Version": "3.8.1",
       "Dependencies": []
     },
     "interop.domino.dll": {
@@ -299,7 +298,7 @@
     },
     "UiPath.OCR.Contracts": {
       "Id": "UiPath.OCR.Contracts",
-      "Version": "2.6.0-beta.835380",
+      "Version": "2.6.0",
       "Dependencies": []
     },
     "UiPath.Platform": {
@@ -400,11 +399,11 @@
     },
     "UiPath.Vision": {
       "Id": "UiPath.Vision",
-      "Version": "2.0.3-beta.853545",
+      "Version": "2.0.3",
       "Dependencies": [
         {
           "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.6.0-beta.835380, )"
+          "Item2": "[2.6.0, )"
         }
       ]
     },
@@ -426,9 +425,9 @@
         "Version": "5.0.3"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\avalonedit\\5.0.3\\lib\\Net40\\ICSharpCode.AvalonEdit.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\avalonedit\\5.0.3\\lib\\Net40\\ICSharpCode.AvalonEdit.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\avalonedit\\5.0.3"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\avalonedit\\5.0.3"
     },
     {
       "Package": {
@@ -436,9 +435,9 @@
         "Version": "1.8.5"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\bouncycastle\\1.8.5\\lib\\BouncyCastle.Crypto.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\bouncycastle\\1.8.5\\lib\\BouncyCastle.Crypto.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\bouncycastle\\1.8.5"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\bouncycastle\\1.8.5"
     },
     {
       "Package": {
@@ -446,9 +445,9 @@
         "Version": "0.87.1"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\closedxml\\0.87.1\\lib\\net40\\ClosedXML.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\closedxml\\0.87.1\\lib\\net40\\ClosedXML.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\closedxml\\0.87.1"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\closedxml\\0.87.1"
     },
     {
       "Package": {
@@ -456,9 +455,9 @@
         "Version": "2.13.5"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\csvhelper\\2.13.5\\lib\\net40-client\\CsvHelper.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\csvhelper\\2.13.5\\lib\\net40-client\\CsvHelper.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\csvhelper\\2.13.5"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\csvhelper\\2.13.5"
     },
     {
       "Package": {
@@ -466,9 +465,9 @@
         "Version": "2.5.0"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\documentformat.openxml\\2.5.0\\lib\\DocumentFormat.OpenXml.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\documentformat.openxml\\2.5.0\\lib\\DocumentFormat.OpenXml.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\documentformat.openxml\\2.5.0"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\documentformat.openxml\\2.5.0"
     },
     {
       "Package": {
@@ -476,24 +475,23 @@
         "Version": "1.0.0.18"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\docx\\1.0.0.18\\lib\\net40\\DocX.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\docx\\1.0.0.18\\lib\\net40\\DocX.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\docx\\1.0.0.18"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\docx\\1.0.0.18"
     },
     {
       "Package": {
         "Id": "Extended.Wpf.Toolkit",
-        "Version": "2.8.0"
+        "Version": "3.8.1"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Aero.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Metro.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.DataGrid.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.Toolkit.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.Toolkit.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1"
     },
     {
       "Package": {
@@ -501,9 +499,9 @@
         "Version": "1.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\interop.domino.dll\\1.0.0\\lib\\Interop.Domino.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\interop.domino.dll\\1.0.0\\lib\\Interop.Domino.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\interop.domino.dll\\1.0.0"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\interop.domino.dll\\1.0.0"
     },
     {
       "Package": {
@@ -511,9 +509,9 @@
         "Version": "2.4.0"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\lib\\net45\\Microsoft.AspNet.SignalR.Client.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\lib\\net45\\Microsoft.AspNet.SignalR.Client.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0"
     },
     {
       "Package": {
@@ -521,10 +519,10 @@
         "Version": "2.2.0"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\lib\\40\\Microsoft.Exchange.WebServices.Auth.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\lib\\40\\Microsoft.Exchange.WebServices.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\lib\\40\\Microsoft.Exchange.WebServices.Auth.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\lib\\40\\Microsoft.Exchange.WebServices.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0"
     },
     {
       "Package": {
@@ -532,9 +530,9 @@
         "Version": "2.3.20"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.20\\lib\\net461\\Microsoft.Rest.ClientRuntime.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.20\\lib\\net461\\Microsoft.Rest.ClientRuntime.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.20"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.20"
     },
     {
       "Package": {
@@ -542,9 +540,9 @@
         "Version": "7.10.6071"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\7.10.6071\\lib\\Microsoft.VisualStudio.OLE.Interop.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\7.10.6071\\lib\\Microsoft.VisualStudio.OLE.Interop.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\7.10.6071"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\7.10.6071"
     },
     {
       "Package": {
@@ -552,9 +550,9 @@
         "Version": "12.0.3"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\newtonsoft.json\\12.0.3\\lib\\net45\\Newtonsoft.Json.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\newtonsoft.json\\12.0.3\\lib\\net45\\Newtonsoft.Json.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\newtonsoft.json\\12.0.3"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\newtonsoft.json\\12.0.3"
     },
     {
       "Package": {
@@ -562,12 +560,12 @@
         "Version": "2.4.1"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OOXML.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXml4Net.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OOXML.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXml4Net.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\npoi\\2.4.1"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\npoi\\2.4.1"
     },
     {
       "Package": {
@@ -575,9 +573,9 @@
         "Version": "1.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\sharpziplib\\1.0.0\\lib\\net45\\ICSharpCode.SharpZipLib.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\sharpziplib\\1.0.0\\lib\\net45\\ICSharpCode.SharpZipLib.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\sharpziplib\\1.0.0"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\sharpziplib\\1.0.0"
     },
     {
       "Package": {
@@ -585,9 +583,9 @@
         "Version": "3.0.10"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib\\net40\\System.IO.Abstractions.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib\\net40\\System.IO.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\system.io.abstractions\\3.0.10"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\system.io.abstractions\\3.0.10"
     },
     {
       "Package": {
@@ -595,9 +593,9 @@
         "Version": "4.10.0"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\system.threading.tasks.dataflow\\4.10.0\\lib\\netstandard2.0\\System.Threading.Tasks.Dataflow.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\system.threading.tasks.dataflow\\4.10.0\\lib\\netstandard2.0\\System.Threading.Tasks.Dataflow.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\system.threading.tasks.dataflow\\4.10.0"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\system.threading.tasks.dataflow\\4.10.0"
     },
     {
       "Package": {
@@ -605,9 +603,9 @@
         "Version": "4.5.0"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib\\net461\\System.ValueTuple.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib\\net461\\System.ValueTuple.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\system.valuetuple\\4.5.0"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\system.valuetuple\\4.5.0"
     },
     {
       "Package": {
@@ -615,9 +613,9 @@
         "Version": "20.4.7391.34509"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath\\20.4.7391.34509\\lib\\UiPath.Interop.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath\\20.4.7391.34509\\lib\\UiPath.Interop.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath\\20.4.7391.34509"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\uipath\\20.4.7391.34509"
     },
     {
       "Package": {
@@ -625,9 +623,9 @@
         "Version": "1.0.2-beta.861594"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.complexscenarios.activities\\1.0.2-beta.861594\\lib\\net461\\UiPath.ComplexScenarios.Design.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.complexscenarios.activities\\1.0.2-beta.861594\\lib\\net461\\UiPath.ComplexScenarios.Design.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.complexscenarios.activities\\1.0.2-beta.861594"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\uipath.complexscenarios.activities\\1.0.2-beta.861594"
     },
     {
       "Package": {
@@ -635,11 +633,11 @@
         "Version": "2.8.3-beta.867639"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.excel.activities\\2.8.3-beta.867639\\lib\\net461\\UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.excel.activities\\2.8.3-beta.867639\\lib\\net461\\UiPath.Excel.Activities.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.excel.activities\\2.8.3-beta.867639\\lib\\net461\\UiPath.Excel.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.excel.activities\\2.8.3-beta.867639\\lib\\net461\\UiPath.Excel.Activities.Design.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.excel.activities\\2.8.3-beta.867639\\lib\\net461\\UiPath.Excel.Activities.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.excel.activities\\2.8.3-beta.867639\\lib\\net461\\UiPath.Excel.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.excel.activities\\2.8.3-beta.867639"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\uipath.excel.activities\\2.8.3-beta.867639"
     },
     {
       "Package": {
@@ -647,23 +645,23 @@
         "Version": "1.8.3-beta.865074"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.mail.activities\\1.8.3-beta.865074\\lib\\net461\\MailKit.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.mail.activities\\1.8.3-beta.865074\\lib\\net461\\MimeKit.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.mail.activities\\1.8.3-beta.865074\\lib\\net461\\UiPath.Mail.Activities.Design.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.mail.activities\\1.8.3-beta.865074\\lib\\net461\\UiPath.Mail.Activities.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.mail.activities\\1.8.3-beta.865074\\lib\\net461\\UiPath.Mail.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.mail.activities\\1.8.3-beta.865074\\lib\\net461\\MailKit.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.mail.activities\\1.8.3-beta.865074\\lib\\net461\\MimeKit.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.mail.activities\\1.8.3-beta.865074\\lib\\net461\\UiPath.Mail.Activities.Design.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.mail.activities\\1.8.3-beta.865074\\lib\\net461\\UiPath.Mail.Activities.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.mail.activities\\1.8.3-beta.865074\\lib\\net461\\UiPath.Mail.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.mail.activities\\1.8.3-beta.865074"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\uipath.mail.activities\\1.8.3-beta.865074"
     },
     {
       "Package": {
         "Id": "UiPath.OCR.Contracts",
-        "Version": "2.6.0-beta.835380"
+        "Version": "2.6.0"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.ocr.contracts\\2.6.0-beta.835380\\lib\\net461\\UiPath.OCR.Contracts.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.ocr.contracts\\2.6.0\\lib\\net461\\UiPath.OCR.Contracts.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.ocr.contracts\\2.6.0-beta.835380"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\uipath.ocr.contracts\\2.6.0"
     },
     {
       "Package": {
@@ -671,9 +669,9 @@
         "Version": "20.4.0-beta.861233"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.platform\\20.4.0-beta.861233\\lib\\net461\\UiPath.Platform.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.platform\\20.4.0-beta.861233\\lib\\net461\\UiPath.Platform.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.platform\\20.4.0-beta.861233"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\uipath.platform\\20.4.0-beta.861233"
     },
     {
       "Package": {
@@ -681,21 +679,21 @@
         "Version": "20.4.0-beta.864462"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\ActiproSoftware.Docking.Wpf.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\ActiproSoftware.Ribbon.Wpf.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\ActiproSoftware.Shared.Wpf.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\ActiproSoftware.SyntaxEditor.Wpf.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\ActiproSoftware.Text.LLParser.Wpf.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\ActiproSoftware.Text.Wpf.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\ActiproSoftware.Wizard.Wpf.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\CustomInputForm.exe",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\UiPath.OrchestratorClient.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\UiPath.System.Activities.Design.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\UiPath.System.Activities.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\CustomInputForm.exe",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\UiPath.OrchestratorClient.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\UiPath.System.Activities.Design.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462\\lib\\net461\\UiPath.System.Activities.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.864462"
     },
     {
       "Package": {
@@ -703,9 +701,9 @@
         "Version": "1.1.36"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.telemetry.client\\1.1.36\\lib\\net461\\TelemetryClient.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.telemetry.client\\1.1.36\\lib\\net461\\TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.telemetry.client\\1.1.36"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\uipath.telemetry.client\\1.1.36"
     },
     {
       "Package": {
@@ -713,22 +711,22 @@
         "Version": "20.4.0-beta.869873"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.uiautomationnext.activities\\20.4.0-beta.869873\\lib\\net461\\UiPath.UIAutomationNext.Activities.Design.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.uiautomationnext.activities\\20.4.0-beta.869873\\lib\\net461\\UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.uiautomationnext.activities\\20.4.0-beta.869873\\lib\\net461\\UiPath.UIAutomationNext.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.uiautomationnext.activities\\20.4.0-beta.869873\\lib\\net461\\UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.uiautomationnext.activities\\20.4.0-beta.869873\\lib\\net461\\UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.uiautomationnext.activities\\20.4.0-beta.869873\\lib\\net461\\UiPath.UIAutomationNext.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.uiautomationnext.activities\\20.4.0-beta.869873"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\uipath.uiautomationnext.activities\\20.4.0-beta.869873"
     },
     {
       "Package": {
         "Id": "UiPath.Vision",
-        "Version": "2.0.3-beta.853545"
+        "Version": "2.0.3"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.vision\\2.0.3-beta.853545\\lib\\net461\\UiPath.Vision.Core.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.vision\\2.0.3-beta.853545\\lib\\net461\\UiPath.Vision.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.vision\\2.0.3\\lib\\net461\\UiPath.Vision.Core.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.vision\\2.0.3\\lib\\net461\\UiPath.Vision.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.vision\\2.0.3-beta.853545"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\uipath.vision\\2.0.3"
     },
     {
       "Package": {
@@ -736,11 +734,11 @@
         "Version": "1.4.2-beta.861587"
       },
       "Assemblies": [
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.word.activities\\1.4.2-beta.861587\\lib\\net461\\UiPath.Word.Activities.Design.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.word.activities\\1.4.2-beta.861587\\lib\\net461\\UiPath.Word.Activities.dll",
-        "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.word.activities\\1.4.2-beta.861587\\lib\\net461\\UiPath.Word.dll"
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.word.activities\\1.4.2-beta.861587\\lib\\net461\\UiPath.Word.Activities.Design.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.word.activities\\1.4.2-beta.861587\\lib\\net461\\UiPath.Word.Activities.dll",
+        "C:\\Users\\edmun\\.nuget\\packages\\uipath.word.activities\\1.4.2-beta.861587\\lib\\net461\\UiPath.Word.dll"
       ],
-      "Path": "C:\\Users\\bianca.dragu\\.nuget\\packages\\uipath.word.activities\\1.4.2-beta.861587"
+      "Path": "C:\\Users\\edmun\\.nuget\\packages\\uipath.word.activities\\1.4.2-beta.861587"
     }
   ]
 }

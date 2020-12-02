@@ -214,7 +214,7 @@
 
 		#ExcelCardDetailsContainer {
 			/* display: none; */
-			display: none;
+			[EXCEL_CONTAINER_VIS_PLACEHOLDER]
 		}	
 
 		#OutlookCardDetailsContainer {
@@ -229,7 +229,7 @@
 
 		#ApplicationCardWithElementDetailsContainer {
 			/* display: none; */
-			[APPCARDELEMENT_CONTAINER_VIS_PLACEHOLDER]
+			display: none;
 		}	
 
 		#ErrorPathContainer
@@ -288,18 +288,18 @@
 
 		<div style="width: 80%; float:left; margin-left: 12pt;">
 			<p>
-				Something went wrong with <strong>the Application</strong>.
-				<br>Activity <strong>Type Into 'What is your name?*'</strong> (<strong>N Type Into</strong>) failed:
-				<br><br><strong><i id="problem-desc">Column not found: People
-</i></strong>
+				Something went wrong with <strong>Excel</strong>.
+				<br>Activity <strong>Excel For Each Row</strong> (<strong>Excel For Each Row</strong>) failed:
+				<br><br><strong><i id="problem-desc">Failed opening the Excel file C:\Users\edmun\Desktop\SCS-3757-Robotic-and-Intelligent-Process-Automation\Module 6\2- How to Troubleshoot Your Robot\How to Troubleshoot Your Robot - Working Documents\How to Troubleshoot Your Robot\Test File\PeopleUnicornName.xls. Possible reasons: the file is corrupt, the file is already used by another process or you don't have permissions to open the file. 
+Sorry, we couldn't find C:\Users\edmun\Desktop\SCS-3757-Robotic-and-Intelligent-Process-Automation\Module 6\2- How to Troubleshoot Your Robot\How to Troubleshoot Your Robot - Working Documents\How to Troubleshoot Your Robot\Test File\PeopleUnicornName.xls. Is it possible it was moved, renamed or deleted?</i></strong>
 				<div id="ErrorPathContainer"><br><br>You can find the activity following this path: </div>
-				<div id="ErrorPathContainer"><br><strong>Main > Use Browser Chrome: www.rpasamples.com/unicornname > For Each File In Folder > Use Excel File > Excel For Each Row > Type Into 'What is your name?*'.</strong></div>
+				<div id="ErrorPathContainer"><br><strong>Main > Use Browser Chrome: www.rpasamples.com/unicornname > For Each File In Folder > Use Excel File > Excel For Each Row.</strong></div>
 			</p>
-			<div id="ExcelCardDetailsContainer"><p> Excel file path: <strong> [PLACEHOLDER_EXCELPATH]</strong></p></div>
+			<div id="ExcelCardDetailsContainer"><p> Excel file path: <strong> [CurrentFile.FullName]</strong></p></div>
 			<div id="OutlookCardDetailsContainer"><p> Outlook account: <strong> [PLACEHOLDER_OUTLOOKACC]</strong></p></div>
-			<div id="ApplicationCardOnlyDetailsContainer" class="ImageClear"><div class="img-resize"><img onclick="ShowModal(this);" class="modal-image"alt="" src=".screenshots/f90e0307759ad4a5c4d5bfcaf697f00c.png"/></div></div>
-			<div id="ApplicationCardWithElementDetailsContainer" class="ImageClear"><div class="img-resize"><img onclick="ShowModal(this);" class="modal-image"alt="" src=".screenshots/f90e0307759ad4a5c4d5bfcaf697f00c.png"/></div>
-			<div id="problem-element-image-container"><p><strong>Problem with element:</strong></p></div><div id="appImagesContainer"><div class="img-resize center-align"><img onclick="ShowModal(this);" class="modal-image" src=".screenshots/af49fd73e2cf6265e10c3c89662db7e6.png"/></div></div></div>
+			<div id="ApplicationCardOnlyDetailsContainer" class="ImageClear"><div class="img-resize"><img onclick="ShowModal(this);" class="modal-image"alt="[PLACEHOLDER_APPNAME]" src="[PLACEHOLDER_SCREENSHOTAPPCARD]"/></div></div>
+			<div id="ApplicationCardWithElementDetailsContainer" class="ImageClear"><div class="img-resize"><img onclick="ShowModal(this);" class="modal-image"alt="[PLACEHOLDER_APPNAME]" src="[PLACEHOLDER_SCREENSHOTAPPCARD]"/></div>
+			<div id="problem-element-image-container"><p><strong>Problem with element:</strong></p></div><div id="appImagesContainer">[PLACEHOLDER_ANCHORSCREENSHOT]<div class="img-resize center-align"><img onclick="ShowModal(this);" class="modal-image" src="[PLACEHOLDER_ELEMENTSCREENSHOT]"/></div></div></div>
 		</div>
 	</div>
 
