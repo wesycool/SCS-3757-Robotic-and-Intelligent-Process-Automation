@@ -214,7 +214,7 @@
 
 		#ExcelCardDetailsContainer {
 			/* display: none; */
-			[EXCEL_CONTAINER_VIS_PLACEHOLDER]
+			display: none;
 		}	
 
 		#OutlookCardDetailsContainer {
@@ -229,7 +229,7 @@
 
 		#ApplicationCardWithElementDetailsContainer {
 			/* display: none; */
-			display: none;
+			[APPCARDELEMENT_CONTAINER_VIS_PLACEHOLDER]
 		}	
 
 		#ErrorPathContainer
@@ -288,18 +288,18 @@
 
 		<div style="width: 80%; float:left; margin-left: 12pt;">
 			<p>
-				Something went wrong with <strong>Excel</strong>.
-				<br>Activity <strong>Excel For Each Row</strong> (<strong>Excel For Each Row</strong>) failed:
-				<br><br><strong><i id="problem-desc">Failed opening the Excel file C:\Users\edmun\Desktop\SCS-3757-Robotic-and-Intelligent-Process-Automation\Module 6\2- How to Troubleshoot Your Robot\How to Troubleshoot Your Robot - Working Documents\How to Troubleshoot Your Robot\Test File\PeopleUnicornName.xls. Possible reasons: the file is corrupt, the file is already used by another process or you don't have permissions to open the file. 
-Sorry, we couldn't find C:\Users\edmun\Desktop\SCS-3757-Robotic-and-Intelligent-Process-Automation\Module 6\2- How to Troubleshoot Your Robot\How to Troubleshoot Your Robot - Working Documents\How to Troubleshoot Your Robot\Test File\PeopleUnicornName.xls. Is it possible it was moved, renamed or deleted?</i></strong>
+				Something went wrong with <strong>the Application</strong>.
+				<br>Activity <strong>Get Text 'grouping'</strong> (<strong>N Get Text</strong>) failed:
+				<br><br><strong><i id="problem-desc">Exception has been thrown by the target of an invocation.
+Failed setting the current sheet to: Sheet1 in workbook: C:\Users\edmun\Desktop\SCS-3757-Robotic-and-Intelligent-Process-Automation\Module 6\2- How to Troubleshoot Your Robot\How to Troubleshoot Your Robot - Working Documents\Test File\PeopleUnicornName.xls. Original error message:  Exception from HRESULT: 0x800AC472</i></strong>
 				<div id="ErrorPathContainer"><br><br>You can find the activity following this path: </div>
-				<div id="ErrorPathContainer"><br><strong>Main > Use Browser Chrome: www.rpasamples.com/unicornname > For Each File In Folder > Use Excel File > Excel For Each Row.</strong></div>
+				<div id="ErrorPathContainer"><br><strong>Main > Use Browser Chrome: www.rpasamples.com/unicornname > For Each File In Folder > Use Excel File > Excel For Each Row > Get Text 'grouping'.</strong></div>
 			</p>
-			<div id="ExcelCardDetailsContainer"><p> Excel file path: <strong> [CurrentFile.FullName]</strong></p></div>
+			<div id="ExcelCardDetailsContainer"><p> Excel file path: <strong> [PLACEHOLDER_EXCELPATH]</strong></p></div>
 			<div id="OutlookCardDetailsContainer"><p> Outlook account: <strong> [PLACEHOLDER_OUTLOOKACC]</strong></p></div>
-			<div id="ApplicationCardOnlyDetailsContainer" class="ImageClear"><div class="img-resize"><img onclick="ShowModal(this);" class="modal-image"alt="[PLACEHOLDER_APPNAME]" src="[PLACEHOLDER_SCREENSHOTAPPCARD]"/></div></div>
-			<div id="ApplicationCardWithElementDetailsContainer" class="ImageClear"><div class="img-resize"><img onclick="ShowModal(this);" class="modal-image"alt="[PLACEHOLDER_APPNAME]" src="[PLACEHOLDER_SCREENSHOTAPPCARD]"/></div>
-			<div id="problem-element-image-container"><p><strong>Problem with element:</strong></p></div><div id="appImagesContainer">[PLACEHOLDER_ANCHORSCREENSHOT]<div class="img-resize center-align"><img onclick="ShowModal(this);" class="modal-image" src="[PLACEHOLDER_ELEMENTSCREENSHOT]"/></div></div></div>
+			<div id="ApplicationCardOnlyDetailsContainer" class="ImageClear"><div class="img-resize"><img onclick="ShowModal(this);" class="modal-image"alt="" src=".screenshots/f90e0307759ad4a5c4d5bfcaf697f00c.png"/></div></div>
+			<div id="ApplicationCardWithElementDetailsContainer" class="ImageClear"><div class="img-resize"><img onclick="ShowModal(this);" class="modal-image"alt="" src=".screenshots/f90e0307759ad4a5c4d5bfcaf697f00c.png"/></div>
+			<div id="problem-element-image-container"><p><strong>Problem with element:</strong></p></div><div id="appImagesContainer"><div class="img-resize center-align"><img onclick="ShowModal(this);" class="modal-image" src=".screenshots/85ea266e39b59bf2c612fd809708bb8f.png"/></div></div></div>
 		</div>
 	</div>
 

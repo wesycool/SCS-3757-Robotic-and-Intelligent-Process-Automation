@@ -89,7 +89,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ForEachFileX DisplayName="For Each File In Folder" Filter="*.xls" Folder="[string.Format(&quot;{0}\Test File&quot;, Directory.GetCurrentDirectory())]" sap:VirtualizedContainerService.HintSize="520,1694" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst">
+            <ui:ForEachFileX DisplayName="For Each File In Folder" Filter="*.xls" Folder="[string.Format(&quot;{0}\SCS-3757-Robotic-and-Intelligent-Process-Automation\Module 6\2- How to Troubleshoot Your Robot\How to Troubleshoot Your Robot - Working Documents\Test File&quot;, Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory))]" sap:VirtualizedContainerService.HintSize="520,1694" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst">
               <ui:ForEachFileX.Body>
                 <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
                   <ActivityAction.Argument1>
@@ -110,7 +110,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                     <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="466,58" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[string.Format(&quot;Processing file: {0}&quot;, CurrentFile.Name)]" />
-                    <ueab:ExcelApplicationCard Password="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="466,1270" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" TemplatePath="Test File\PeopleUnicornName.xlsx" UseTemplate="True" WorkbookPath="[CurrentFile.FullName]">
+                    <ueab:ExcelApplicationCard Password="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="466,1270" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" TemplatePath="[string.Format(&quot;{0}\SCS-3757-Robotic-and-Intelligent-Process-Automation\Module 6\2- How to Troubleshoot Your Robot\How to Troubleshoot Your Robot - Working Documents\Test File\PeopleUnicornName.xlsx&quot;, Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory))]" UseTemplate="True" WorkbookPath="[CurrentFile.FullName]">
                       <ueab:ExcelApplicationCard.Body>
                         <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                           <ActivityAction.Argument>
@@ -167,7 +167,7 @@
                                     </uix:NClick>
                                     <uix:NGetText DisplayName="Get Text 'grouping'" sap:VirtualizedContainerService.HintSize="358,158" sap2010:WorkflowViewState.IdRef="NGetText_1">
                                       <uix:NGetText.Target>
-                                        <uix:TargetAnchorable DesignTimeRectangle="635, 367, 119, 19" FriendlyName="'grouping'" FullSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Find Unicorn Name - Google Chrome' /&gt;&lt;ctrl name='Find Unicorn Name' role='document' /&gt;&lt;ctrl idx='18' role='grouping' /&gt;" FuzzySelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Find Unicorn Name - Google Chrome' /&gt;&lt;ctrl name='Find Unicorn Name' role='document' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" InformativeScreenshot="647082c216d69fcab038df0e540c52b6.png" SearchSteps="Selector, FuzzySelector" SelectionStrategy="AA" />
+                                        <uix:TargetAnchorable DesignTimeRectangle="781, 366, 195, 19" FriendlyName="'grouping'" FullSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Find Unicorn Name - Google Chrome' /&gt;&lt;ctrl name='Find Unicorn Name' role='document' /&gt;&lt;ctrl idx='19' role='grouping' /&gt;" FuzzySelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Find Unicorn Name - Google Chrome' /&gt;&lt;ctrl name='Find Unicorn Name' role='document' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" InformativeScreenshot="85ea266e39b59bf2c612fd809708bb8f.png" SearchSteps="Selector, FuzzySelector" />
                                       </uix:NGetText.Target>
                                       <uix:NGetText.Text>
                                         <OutArgument x:TypeArguments="ue:ExcelValue">[CurrentRow.ByField("Unicorn Name")]</OutArgument>
