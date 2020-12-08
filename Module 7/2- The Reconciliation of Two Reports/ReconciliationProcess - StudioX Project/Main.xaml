@@ -1,0 +1,355 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="660,5426" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:uasb="clr-namespace:UiPath.Activities.System.Binding;assembly=UiPath.System.Activities" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="48">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Activities.System.Binding</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Word</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="38">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.OmniPage.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <ueab:SequenceX sap:VirtualizedContainerService.HintSize="670,5361.33333333333" sap2010:WorkflowViewState.IdRef="SequenceX_1">
+    <ueab:SequenceX.Variables>
+      <Variable x:TypeArguments="ue:IWorkbookQuickHandle" Default="[new WorkbookQuickHandle(workbookPath:=&quot;Project_Notebook.xlsx&quot;,visible:=True,autoSave:=True,createNew:=True,readOnly:=False,isWorkspace:=True)]" Name="Notes" />
+      <Variable x:TypeArguments="uasb:BindingsRepository" Default="[new UiPath.Activities.System.Binding.BindingsRepository()]" Name="Saved" />
+    </ueab:SequenceX.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard CloseMode="{x:Null}" OpenMode="{x:Null}" sap2010:Annotation.AnnotationText="We started with a Use Application/ Browser Resource and indicated the browser URL. Inside the resources we added a click activity for the robot to click on Internal Vendors followed by a Download File action where we added another click activity for the robot to Download Full Invoice Report." DisplayName="Use Browser Chrome: ACME System 2 - Dashboard" sap:VirtualizedContainerService.HintSize="628,5271.33333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="616,4994.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Internal Invoices'" sap:VirtualizedContainerService.HintSize="574,166.666666666667" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/reboot-your-skills" DesignTimeRectangle="468, 471, 200, 46" ElementType="Button" FriendlyName="'Internal Invoices'" FullSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl aaname='              Internal Invoices' parentid='dashmenu' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl aaname='              Internal Invoices' parentid='dashmenu' tag='BUTTON' type='button' check:text='Internal Invoices' /&gt;" ImageBase64="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" InformativeScreenshot="849bab0ded73e5b873c44bda266293e6.png" SearchSteps="FuzzySelector, Image" Text="Internal Invoices" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='BUTTON' type='button' /&gt;">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="468, 415, 200, 46" ElementType="Button" FriendlyName="'Vendors'" FullSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl aaname='              Vendors' parentid='dashmenu' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl aaname='              Vendors' parentid='dashmenu' tag='BUTTON' type='button' check:text='Vendors' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, Image" Text="Vendors" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='BUTTON' type='button' /&gt;" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:GetLastDownloadedFile Timeout="{x:Null}" sap2010:Annotation.AnnotationText="We used a Download File action placing inside it, a click activity, for the robot to click on Full Invoice Report. We saved the file as value for later use, naming it ReconciliationFile. &#xA;We then run the automation up to this point using Run to this Activity! " DisplayName="Download File" DownloadFolder="[string.Format(&quot;{0}\Downloads\&quot;, Environment.GetFolderPath(Environment.SpecialFolder.UserProfile))]" File="[Saved.Values(Of FileInfo)(&quot;ReconciliationFile&quot;)]" sap:VirtualizedContainerService.HintSize="574,557.333333333333" sap2010:WorkflowViewState.IdRef="GetLastDownloadedFile_1">
+              <ui:GetLastDownloadedFile.Body>
+                <ActivityAction>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,256.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Download Full Invoice Report'" sap:VirtualizedContainerService.HintSize="358,166.666666666667" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/reboot-your-skills" DesignTimeRectangle="679, 505, 223, 26" ElementType="Text" FriendlyName="'Download Full'" FullSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl id='download-internal' tag='A' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl id='download-internal' tag='A' type='' aaname='Download Full Invoice Report' check:text='Download Full Invoice Report' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOMAAAAeCAYAAADegqmLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQcSURBVHhe7ZjtbeMwDIZvpwx196dZ4UYwuokzRH8XHaNNd/CJpCSTFK0UaRPr2vcBjEYRRfHrdYD+ent7W56enhYAwD6Q/kiHECMAOwMxAjAIECMAgwAxAjAIECMAgwAxAjAIECMAgwAxAjAIECMAg3AHMb4v88NhORzaZ3rOJvfkdV6Oh+Myv+b1l/KyTJ283k/HsA70fKQWfP5hThW1nxuep+RzStHcmn6+1yN+ozodHm+f1TYyy7ea27uJsUmARXG7xDbZW4yfGKbxxHgrqI5Rj6S+x1OY9R34rmIkmqFxv6J1cOV73YR2GKlR5Cs38kS+iy91RyPGrTszHKPad0POcdSz0+fEGLwoXh7Jr5y5Voxy72zyrLWMhMtxuPMlR2Pbvnw43tDW++m9ELfEGOXt+qf3Sh66h93+trWfTuSD9v4sf38Xu9u8EPYVoyl6LqoToBlEv6ebTUXlfRmQtSnOrxn4/p3SKN2g7Dvvy3CtMZRBHFKMOi6TVysoHaec9b7K2p71Mem13/MxWvRcWKwf6ZcWhq6X1DOtnX3d9/11a+mnjlHOb/X3s+wsRrUXNUcPZ3nL8QY1K/0K0Zsr++W3GH/eGK7SEO3z0p0Ba7PbQYju1nAcNBzuqT6Cu79MjMbWxmkGOOe1VcuyLzHr/V7utNfWlO6Nf2Fi+3JHPUN5NjVQZ6Ne1tpE/ZOYSi1sXQhdm69nGDHGw6Wboj5TQVOR6Mw6FFqo9j7jWzXo8p0ZPiPC4Ycb1N7TzzXfZ5rr2EmMxp5j0J9dLRKriJSfDVvG108922K8bM95BTb1103nUqhxRv2zPfphYqSCSOHi4Vr3eZWHgGy5KVRYOkN/a9HaIhvftRkfuJNtpcHF39qgqJn/qRjV2sQYxENcJ8aNvRDVgwzXwQmrWwOC74UYFZ0E9NC4AWJ8E8mG/xFRvqOCTsucCrj6b4tsmqZ9XrjTDGZmbZDkZd/scYMLkT+DzzdxHzGWe+SfPL1a2rz1fi/3fl1ayN7Wodxr8oj6pwnquZ6J+pduVvX+OWLkQunvc7Fr8n6dyGfWBmQb05C28WYYTYP6d/oh5jXdX+zdMHDzOkPH53U+DRJ7HZCSbxCPj81whRjlDMVvh1dydr7q2vpp7lFxeD9hDBXa82JMuHokr+2M6Nw37Gt92Vbd49bfVozSaP0Exfa2phBEW/yPDJqxMWIkene2e36oZC37x9PcGbBs2+TkqKJIT4r5RZ3ReZicPHogE61tJAT5LvKpc7wkqPJCksf22O71hnpDjESuz/qLluOuj4ov93p6VPH7+ut6R/E6+1qLS328gjuIEYCdaF68YwMxgu8LxAjAIECMAIBrgBgBGASIEYBBgBgBGIQqxvP5DDECsCMQIwCDQPojHUKMAOyMiPG8/ANilDZUPzEpjwAAAABJRU5ErkJggg==" InformativeScreenshot="c84c09b2a4fc1e86c9567e5a7ffc3227.png" SearchSteps="FuzzySelector, Image" Text="Download Full Invoice Report" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='A' type='' /&gt;">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="679, 479, 223, 26" ElementType="Text" FriendlyName="'Download Monthly'" FullSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl aaname='Download Monthly Invoices' parentid='dashmenu' tag='A' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl aaname='Download Monthly Invoices' parentid='dashmenu' tag='A' type='' check:text='Download Monthly Invoices' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOMAAAAeCAYAAADegqmLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAS4SURBVHhe7Zp7TuMwEMZzp56LXqXiJuUQvEHQYwAFxEPwp9efPY5nxm7SiJJkxfykahuP7Xl+pctu8/397TabjTMMYxqgP+iw+fr6cvf397RsGMbYQH/QYfP5+enu7u5o2TCMsYH+oMPm4+PD3d7e0rJhGGMD/UGHzfv7u7u5uaFlwzDGBvqDDpu3tzd3fX1Ny4ZhjA30Bx02r6+v7urqipYNwxgb6A86bF5eXtzl5SUtG4YxNtAfdNg8Pz+7i4sLWjYMY2ygP+gwiPH8/JyWDcMYG+gviHG73bqzszNaPiRbtz5auMWifK2m+GfNh7VbLpZu/UDPB2XjVh15bY593kdrX5E6ffZB3K3EXeHu413/w6o77t3E3i5PDhJxJ9uT5eFqM1OgP+iweXp6+lUxFo0OophAkJOLcemWFVGEYfNnTYx/F+gPOgxiPD09peVDskOMAAOzWPlRSKifou3wlE0vPykxULgLf3qxneDudBfzUYhxl08ixMjsIl6Koz276hfj8dr7k3fEGJZudVzLKfmt5B/uqthFzNFX9B3jS7YcJxNj0ZNarRO6L121L3sIEJc8n+Mr8uUx0Id5ba++R/a0yzYt0N90YkzNC8IgUSgBpuc4fMrGhwZDFOxU7LZx6l4hxm6fcTC5cOluskch5hjCwHt7txg34ZzYg5h8vBsxcNGXHtT0HH0zXzpWPLPhjbFlu4w93h3v4u9BrEk9p2grxLSj9sEniynuTzHJ/PSzPKtj5M/axmPU8ernaZlYjMxW+UQWwgnv+fD4T3k/YOleDFu9Gd4LbyS/s89nhSSoeiNL35z2LHzQgALEh3t4nOXgeli8pV35romR+ZR5yrNir6i7RtdgQO0Bi3FIvtW9RLDxPEGbw7zEp2nF+Pj4OKkY6wVGc/nAMBH5guNMLCxsaWD2H4h+n0Q44wc0vUKzSz/dufoTQsgpXrwv4ynEA5gwythVPD8QozhLta4T891bjGo/YuLv9823upcINvSoeFG9g8BpTdRveqA/6HAiMebB30cYqXnYG5qIZuEM/myb0zMQbAh7fYa9sXHpvjwIpZ/uXPnZ6FvkQGudAxfiGUGMrAY4tyuflG8SVHlPGWd+zj7AkHyre4kum4D1dq/9IzCtGMOnFP/EovcJMTCe8CmNX1rwIVq5tW+UHKSOgeB39vgM51SjcrP1IILSN0cMCvz4mPD3xHQHj1PEnGDxlnblG3uZvRhSUdsybuxfnqxDfWUFOMPF2PrFL3nY+pB8q3uJLluV2gxMxHRiDE3h63FfHhj97KEzuXi0RxRzgBh7fOrGhmf4T/tVI8PAK98cKYgUe4pF+4t56EGvCTei8v6hGGNu6kxBzGGQGOlMefeQfLUfHoe+h5/V8frdui4TMpoYQ/HFKw9hRu0tikR2tt47lB6xRwwh6PJZ2sJdTIDxOdrjTxI11AzdeB37rlzy/dmya2/2nc7GXAeLsbqmifXJcZVnyjhprXp3inmPfNsPZnoVuTFb1zkV25SMIEbj/wTCmMfXt7+CidGog6+p4luC8duYGA1F+mpuPxXHxsRoGDPBxGgYM8HEaBgzwcRoGDPBxGgYM8HEaBgzwcRoGDMhivHR/QMRE3bUkPCGowAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" Text="Download Monthly Invoices" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='A' type='' /&gt;" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </ActivityAction>
+              </ui:GetLastDownloadedFile.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:GetLastDownloadedFile>
+            <uix:NClick sap2010:Annotation.AnnotationText="We also want the robot to download all monthly invoices for a particuar vendor so we added 2 Click activities for the robot to click on Internal Invoices and then click on Download Monthly Invoices" ClickType="Single" DisplayName="Click 'Internal Invoices'" sap:VirtualizedContainerService.HintSize="574,242.666666666667" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/reboot-your-skills" DesignTimeRectangle="468, 471, 200, 46" ElementType="Button" FriendlyName="'Internal Invoices'" FullSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl aaname='              Internal Invoices' parentid='dashmenu' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl aaname='              Internal Invoices' parentid='dashmenu' tag='BUTTON' type='button' check:text='Internal Invoices' /&gt;" ImageBase64="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" InformativeScreenshot="849bab0ded73e5b873c44bda266293e6.png" SearchSteps="FuzzySelector, Image" Text="Internal Invoices" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='BUTTON' type='button' /&gt;">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="468, 415, 200, 46" ElementType="Button" FriendlyName="'Vendors'" FullSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl aaname='              Vendors' parentid='dashmenu' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl aaname='              Vendors' parentid='dashmenu' tag='BUTTON' type='button' check:text='Vendors' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, Image" Text="Vendors" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='BUTTON' type='button' /&gt;" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NClick sap2010:Annotation.AnnotationText="" ClickType="Single" DisplayName="Click 'Download Monthly Invoices'" sap:VirtualizedContainerService.HintSize="574,197.333333333333" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/reboot-your-skills" DesignTimeRectangle="679, 479, 223, 26" ElementType="Text" FriendlyName="'Download Monthly'" FullSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl aaname='Download Monthly Invoices' parentid='dashmenu' tag='A' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl aaname='Download Monthly Invoices' parentid='dashmenu' tag='A' type='' check:text='Download Monthly Invoices' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOMAAAAeCAYAAADegqmLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAS4SURBVHhe7Zp7TuMwEMZzp56LXqXiJuUQvEHQYwAFxEPwp9efPY5nxm7SiJJkxfykahuP7Xl+pctu8/397TabjTMMYxqgP+iw+fr6cvf397RsGMbYQH/QYfP5+enu7u5o2TCMsYH+oMPm4+PD3d7e0rJhGGMD/UGHzfv7u7u5uaFlwzDGBvqDDpu3tzd3fX1Ny4ZhjA30Bx02r6+v7urqipYNwxgb6A86bF5eXtzl5SUtG4YxNtAfdNg8Pz+7i4sLWjYMY2ygP+gwiPH8/JyWDcMYG+gviHG73bqzszNaPiRbtz5auMWifK2m+GfNh7VbLpZu/UDPB2XjVh15bY593kdrX5E6ffZB3K3EXeHu413/w6o77t3E3i5PDhJxJ9uT5eFqM1OgP+iweXp6+lUxFo0OophAkJOLcemWFVGEYfNnTYx/F+gPOgxiPD09peVDskOMAAOzWPlRSKifou3wlE0vPykxULgLf3qxneDudBfzUYhxl08ixMjsIl6Koz276hfj8dr7k3fEGJZudVzLKfmt5B/uqthFzNFX9B3jS7YcJxNj0ZNarRO6L121L3sIEJc8n+Mr8uUx0Id5ba++R/a0yzYt0N90YkzNC8IgUSgBpuc4fMrGhwZDFOxU7LZx6l4hxm6fcTC5cOluskch5hjCwHt7txg34ZzYg5h8vBsxcNGXHtT0HH0zXzpWPLPhjbFlu4w93h3v4u9BrEk9p2grxLSj9sEniynuTzHJ/PSzPKtj5M/axmPU8ernaZlYjMxW+UQWwgnv+fD4T3k/YOleDFu9Gd4LbyS/s89nhSSoeiNL35z2LHzQgALEh3t4nOXgeli8pV35romR+ZR5yrNir6i7RtdgQO0Bi3FIvtW9RLDxPEGbw7zEp2nF+Pj4OKkY6wVGc/nAMBH5guNMLCxsaWD2H4h+n0Q44wc0vUKzSz/dufoTQsgpXrwv4ynEA5gwythVPD8QozhLta4T891bjGo/YuLv9823upcINvSoeFG9g8BpTdRveqA/6HAiMebB30cYqXnYG5qIZuEM/myb0zMQbAh7fYa9sXHpvjwIpZ/uXPnZ6FvkQGudAxfiGUGMrAY4tyuflG8SVHlPGWd+zj7AkHyre4kum4D1dq/9IzCtGMOnFP/EovcJMTCe8CmNX1rwIVq5tW+UHKSOgeB39vgM51SjcrP1IILSN0cMCvz4mPD3xHQHj1PEnGDxlnblG3uZvRhSUdsybuxfnqxDfWUFOMPF2PrFL3nY+pB8q3uJLluV2gxMxHRiDE3h63FfHhj97KEzuXi0RxRzgBh7fOrGhmf4T/tVI8PAK98cKYgUe4pF+4t56EGvCTei8v6hGGNu6kxBzGGQGOlMefeQfLUfHoe+h5/V8frdui4TMpoYQ/HFKw9hRu0tikR2tt47lB6xRwwh6PJZ2sJdTIDxOdrjTxI11AzdeB37rlzy/dmya2/2nc7GXAeLsbqmifXJcZVnyjhprXp3inmPfNsPZnoVuTFb1zkV25SMIEbj/wTCmMfXt7+CidGog6+p4luC8duYGA1F+mpuPxXHxsRoGDPBxGgYM8HEaBgzwcRoGDPBxGgYM8HEaBgzwcRoGDMhivHR/QMRE3bUkPCGowAAAABJRU5ErkJggg==" InformativeScreenshot="8cda959830603deefc9c4e778d00304f.png" SearchSteps="FuzzySelector, Image" Text="Download Monthly Invoices" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='A' type='' /&gt;">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="679, 505, 223, 26" ElementType="Text" FriendlyName="'Download Full'" FullSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl id='download-internal' tag='A' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl id='download-internal' tag='A' type='' aaname='Download Full Invoice Report' check:text='Download Full Invoice Report' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOMAAAAeCAYAAADegqmLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQcSURBVHhe7ZjtbeMwDIZvpwx196dZ4UYwuokzRH8XHaNNd/CJpCSTFK0UaRPr2vcBjEYRRfHrdYD+ent7W56enhYAwD6Q/kiHECMAOwMxAjAIECMAgwAxAjAIECMAgwAxAjAIECMAgwAxAjAIECMAg3AHMb4v88NhORzaZ3rOJvfkdV6Oh+Myv+b1l/KyTJ283k/HsA70fKQWfP5hThW1nxuep+RzStHcmn6+1yN+ozodHm+f1TYyy7ea27uJsUmARXG7xDbZW4yfGKbxxHgrqI5Rj6S+x1OY9R34rmIkmqFxv6J1cOV73YR2GKlR5Cs38kS+iy91RyPGrTszHKPad0POcdSz0+fEGLwoXh7Jr5y5Voxy72zyrLWMhMtxuPMlR2Pbvnw43tDW++m9ELfEGOXt+qf3Sh66h93+trWfTuSD9v4sf38Xu9u8EPYVoyl6LqoToBlEv6ebTUXlfRmQtSnOrxn4/p3SKN2g7Dvvy3CtMZRBHFKMOi6TVysoHaec9b7K2p71Mem13/MxWvRcWKwf6ZcWhq6X1DOtnX3d9/11a+mnjlHOb/X3s+wsRrUXNUcPZ3nL8QY1K/0K0Zsr++W3GH/eGK7SEO3z0p0Ba7PbQYju1nAcNBzuqT6Cu79MjMbWxmkGOOe1VcuyLzHr/V7utNfWlO6Nf2Fi+3JHPUN5NjVQZ6Ne1tpE/ZOYSi1sXQhdm69nGDHGw6Wboj5TQVOR6Mw6FFqo9j7jWzXo8p0ZPiPC4Ycb1N7TzzXfZ5rr2EmMxp5j0J9dLRKriJSfDVvG108922K8bM95BTb1103nUqhxRv2zPfphYqSCSOHi4Vr3eZWHgGy5KVRYOkN/a9HaIhvftRkfuJNtpcHF39qgqJn/qRjV2sQYxENcJ8aNvRDVgwzXwQmrWwOC74UYFZ0E9NC4AWJ8E8mG/xFRvqOCTsucCrj6b4tsmqZ9XrjTDGZmbZDkZd/scYMLkT+DzzdxHzGWe+SfPL1a2rz1fi/3fl1ayN7Wodxr8oj6pwnquZ6J+pduVvX+OWLkQunvc7Fr8n6dyGfWBmQb05C28WYYTYP6d/oh5jXdX+zdMHDzOkPH53U+DRJ7HZCSbxCPj81whRjlDMVvh1dydr7q2vpp7lFxeD9hDBXa82JMuHokr+2M6Nw37Gt92Vbd49bfVozSaP0Exfa2phBEW/yPDJqxMWIkene2e36oZC37x9PcGbBs2+TkqKJIT4r5RZ3ReZicPHogE61tJAT5LvKpc7wkqPJCksf22O71hnpDjESuz/qLluOuj4ov93p6VPH7+ut6R/E6+1qLS328gjuIEYCdaF68YwMxgu8LxAjAIECMAIBrgBgBGASIEYBBgBgBGIQqxvP5DDECsCMQIwCDQPojHUKMAOyMiPG8/ANilDZUPzEpjwAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" Text="Download Full Invoice Report" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='A' type='' /&gt;" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <ueab:ExcelApplicationCard Password="{x:Null}" sap2010:Annotation.AnnotationText="We added a Use Excel File resource and selected the previously saved value ReconciliationFile FullName. Since we want to use this file at Run Time we have ticked Template File and chose the export_total.xls file from the folder where it downloaded when we previously ran our automation. Before selecting it here though, we renamed it into export_total_template.xlsx. " DisplayName="Use Excel Reconciliation File" sap:VirtualizedContainerService.HintSize="574,3578" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" TemplatePath="export_total_template.xlsx" UseTemplate="True" WorkbookPath="[Saved.Values(Of FileInfo)(&quot;ReconciliationFile&quot;).FullName]">
+              <ueab:ExcelApplicationCard.Body>
+                <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="ReconciliationFile" />
+                  </ActivityAction.Argument>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="562,3269.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ueab:InsertColumnX ColumnFormat="{x:Null}" sap2010:Annotation.AnnotationText="This activity adds a new column to the ReconciliationFile. We added it because it is where we want to see the output of our reconcile operations." DisplayName="Insert Column " HasHeaders="False" sap:VirtualizedContainerService.HintSize="520,263.333333333333" sap2010:WorkflowViewState.IdRef="InsertColumnX_1" NewColumnName="Reconcile" Range="[ReconciliationFile.Sheet(&quot;Sheet1&quot;).Range(&quot;export&quot;)]" RelativeColumnName="F" RelativePosition="Before">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ueab:InsertColumnX>
+                    <ueab:ExcelForEachRow sap2010:Annotation.AnnotationText="This activity will enable the robot to select data from each row in the ReconciliationFile. Because we want the robot to take the vendor name and type it into the Vendor TaxID field in ACME we will be using this activity. We also want the robot to make the correlation between the numbers 1-12 representing calendaristic months in the ReconciliationFile, and the months from the drop down in ACME. We will be using the Scratchpad from Project Notebook for that operation." DisplayName="Excel For Each Row " EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="520,2873.33333333333" sap2010:WorkflowViewState.IdRef="ExcelForEachRow_1" Range="[ReconciliationFile.Sheet(&quot;Sheet1&quot;).Range(&quot;export&quot;)]" SaveAfterEachRow="False">
+                      <ueab:ExcelForEachRow.Body>
+                        <ActivityAction x:TypeArguments="ue:CurrentRowQuickHandle, x:Int32">
+                          <ActivityAction.Argument1>
+                            <DelegateInArgument x:TypeArguments="ue:CurrentRowQuickHandle" Name="CurrentRow" />
+                          </ActivityAction.Argument1>
+                          <ActivityAction.Argument2>
+                            <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                          </ActivityAction.Argument2>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="508,2582" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NTypeInto ClickBeforeMode="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyFieldMode="{x:Null}" ActivateBefore="True" sap2010:Annotation.AnnotationText="Types into the Vendor TaxID field, the vendor names from the ReconciliationFile&#xA;" DisplayName="Type Into 'Vendor TaxID:'" sap:VirtualizedContainerService.HintSize="466,288" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="[CurrentRow.ByField(&quot;Vendor&quot;)]">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/nrinternal/download" DesignTimeRectangle="398, 381, 555, 34" ElementType="InputBox" FriendlyName="'INPUT  vendorTaxID'" FullSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Internal Invoices - Download Monthly Invoices' /&gt;&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Internal Invoices - Download Monthly Invoices' /&gt;&lt;webctrl tag='INPUT' type='text' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAi8AAAAmCAYAAAAMRHulAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAGWSURBVHhe7dnBqoJQGIXR+/7PFj6BswYRREQgFJnnsi8qNbhj/WEt2AOP5wE+9KcBABQiXgCAUr7iZRiG1vd967quHQ4HMzMzs82WHkmXpE8+rfGSF7l0PB7b5XJp1+vVzMzMbLOlR9Il6ZPPgFnjJWWTC/f7vT2fz/Z+v83MzMw2W3okXZI+Sacs1nhJ1dxutzaOY5umaT4FANhGeiRdkj5JpyzWeMm/pcfjIVwAgN1Il6RP0imLr3jJJxoAgD1Jn4gXAKAM8QIAlCJeAIBSxAsAUIp4AQBKES8AQCniBQAoRbwAAKWIFwCgFPECAJQiXgCAUsQLAFCKeAEAShEvAEAp4gUAKEW8AACliBcAoBTxAgCUIl4AgFLECwBQingBAEoRLwBAKeIFAChFvAAApfwbL13XtdfrNT8BAOxD+iSdsljjpe/7djqd2jRN8wkAwLbSJemTdMpijZdhGP6q5nw+t3Ec51MAgG2kR9Il6ZN0ymKNl8iLlE0u5d+SmZmZ2VZLj6RLPsMlvuIFAGDvxAsAUEhrv/UPeCvpOeQSAAAAAElFTkSuQmCC" InformativeScreenshot="965cd5e6ae8ac97d62e282695227c12a.png" SearchSteps="FuzzySelector, Image">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                      <uix:Target DesignTimeRectangle="398, 356, 93, 20" ElementType="Text" FriendlyName="'Vendor TaxID:'" FullSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Internal Invoices - Download Monthly Invoices' /&gt;&lt;webctrl aaname='Vendor TaxID:' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Internal Invoices - Download Monthly Invoices' /&gt;&lt;webctrl aaname='Vendor TaxID:' tag='LABEL' type='' check:text='Vendor TaxID:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGEAAAAYCAYAAADqK5OqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIeSURBVGhD7ZXtjcMgDIZvJ+ZqVom6STJJ1TEqdQcuJPiD15BQNb2iE6/kHyVgGz/G/fFdX1eH0IA6hAbUITSgDqEBdQgNqENoQBHC008X551zfrxtK6K7H5d15wY/PeLSmbqNa9xhfsaFc/Sch9Vvyew960W+ycf9mo/hrvdtw4H4JXDSeDAWqdbhy/rPEIJdpqXF9yXj6DH5YT04Lr0vogAUML1c+jp470y+gqX+5GXFbzkInEu0pAHo/OhHuvxBg1DOOoaBpIrF32gNalOCkIKVe3Jc8gNgkv8EcmYOQfDUpMjFjuAiydhDszHBOHENcbOjrjYQ6HWDCSQ9nu2oroOwCKdIDQQ+FDdx0VcnlIzqbOhihkBBwZ9c3oJDH/mChN8C4aj4JAMBhcUKwmZQ36ohFIqOSiHwBcOYocvTyLEdyBYTtMnEMwA1KUYCkmIo0EE1e3ZUhLBT6CBuKoj1YQjicLiO4GAHQtzzPoTMaws6GwJ2Pv5eJS8wmC5wNYSsXysDgQ9Gk4IVCqR0BEF8kw+5KMXhJjBxye/7EDBP+q6LxWtkqpvrIGDeZVkI6jBe1CQWrZwMQEh8p8ZFxxFBxj7Og2CMIVCMbRRjY5QgZE3BK42nDARV7MwzQhDSsZJMGUIQXTDYcsl5ex3az/6sfh+CyYH//zafWHTJZ4NSDQHr9wqErr9Vh9CAOoQG1CE0oA6hAXUIDahD+Lq8/wWcndZhbnQnJwAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" Text="Vendor TaxID:" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='LABEL' type='' /&gt;" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NTypeInto.Target>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </uix:NTypeInto>
+                            <ueab:WriteCellX sap2010:Annotation.AnnotationText="This activity will enable the robot to take the number from the Month Column from the ReconciliationFile......." Cell="[Notes.Sheet(&quot;Scratchpad&quot;).Cell(&quot;A1&quot;)]" DisplayName="Write Cell " sap:VirtualizedContainerService.HintSize="466,208" sap2010:WorkflowViewState.IdRef="WriteCellX_2" Value="[CurrentRow.ByField(&quot;Month&quot;)]">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </ueab:WriteCellX>
+                            <ueab:WriteCellX sap2010:Annotation.AnnotationText=".....and turn it into the corresponding Month. You will be needing the Project Notebook to help you convert numbers into their corresponding months" Cell="[Notes.Sheet(&quot;Scratchpad&quot;).Cell(&quot;B1&quot;)]" DisplayName="Write Cell " sap:VirtualizedContainerService.HintSize="466,224" sap2010:WorkflowViewState.IdRef="WriteCellX_3" Value="[string.Format(&quot;=TEXT({0}*29,&quot;&quot;mmmm&quot;&quot;)&quot;, Notes.Sheet(&quot;Scratchpad&quot;).Cell(&quot;A1&quot;))]">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </ueab:WriteCellX>
+                            <uix:NSelectItem sap2010:Annotation.AnnotationText="This activity selects the months from the dropdown. It takes the information from the Project Notebook" DisplayName="Select Item 'Month:'" sap:VirtualizedContainerService.HintSize="466,226.666666666667" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="[Notes.Sheet(&quot;Scratchpad&quot;).Cell(&quot;B1&quot;)]">
+                              <uix:NSelectItem.Items>
+                                <scg:List x:TypeArguments="x:String" Capacity="12">
+                                  <x:String>January</x:String>
+                                  <x:String>February</x:String>
+                                  <x:String>March</x:String>
+                                  <x:String>April</x:String>
+                                  <x:String>May</x:String>
+                                  <x:String>June</x:String>
+                                  <x:String>July</x:String>
+                                  <x:String>August</x:String>
+                                  <x:String>September</x:String>
+                                  <x:String>October</x:String>
+                                  <x:String>November</x:String>
+                                  <x:String>December</x:String>
+                                </scg:List>
+                              </uix:NSelectItem.Items>
+                              <uix:NSelectItem.Target>
+                                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/nrinternal/download" DesignTimeRectangle="398, 455, 240, 34" ElementType="DropDown" FriendlyName="'January'" FullSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Internal Invoices - Download Monthly Invoices' /&gt;&lt;webctrl tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Internal Invoices - Download Monthly Invoices' /&gt;&lt;webctrl tag='SELECT' type='' aaname='' /&gt;" InformativeScreenshot="e30db5ea0e8e9d5c9ecb11b76f915f3d.png" SearchSteps="FuzzySelector" Text="January" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='SELECT' type='' /&gt;">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                      <uix:Target DesignTimeRectangle="398, 430, 47, 20" ElementType="Text" FriendlyName="'Month:'" FullSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Internal Invoices - Download Monthly Invoices' /&gt;&lt;webctrl aaname='Month:' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Internal Invoices - Download Monthly Invoices' /&gt;&lt;webctrl aaname='Month:' tag='LABEL' type='' check:text='Month:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADMAAAAYCAYAAABXysXfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAE+SURBVFhH7ZQNDoMgDIV3J84lVyHeBE9iPIaJd+j4aaEg6Excxgwv6bIV7OtXYS94kDpMq+owrarDtKoIs2qQQoBwIUGvmLeaFeZNDBo2TN+jBZRQ5tNrm6TzkdN1lwqMADVj3mgZY/5eGAti634ZRoxUngwxEpgN9MDWWFNWNAQ18dq0J6trwg6Qw8Qhpicl1GUDt9rDDAqUaxBNMS9HhesEk4NQROPkjfJwgzqG2QUb4gUYDYsr6Jvyxc33Oa67onSPmEloBN9qgKG3vHumfsyO9tRUhNnQVE4LTt8U4utme3k6aFzdk66XGuXHDDOxB8zUVIYJptLn7GQzGDL9A5j0PrjCGcyVY/ZjGNYYXegcJpjksf8DOIfxYQE+gSkf8QOY099OOVA6vXMYPrQ7YR6gDtOqOkyr6jBtCuAN4vIxtm3iRTYAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" Text="Month:" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='LABEL' type='' /&gt;" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NSelectItem.Target>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </uix:NSelectItem>
+                            <ui:GetLastDownloadedFile File="{x:Null}" Timeout="{x:Null}" sap2010:Annotation.AnnotationText="After the robot inputs the vendor id and selects the month, it needs to download the files so we added this activity to initiate the download report" DisplayName="Download File" DownloadFolder="[string.Format(&quot;{0}\Downloads&quot;, Environment.GetFolderPath(Environment.SpecialFolder.UserProfile))]" sap:VirtualizedContainerService.HintSize="466,525.333333333333" sap2010:WorkflowViewState.IdRef="GetLastDownloadedFile_2">
+                              <ui:GetLastDownloadedFile.Body>
+                                <ActivityAction>
+                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,256.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <uix:NClick ClickType="Single" DisplayName="Click 'Download Report'" sap:VirtualizedContainerService.HintSize="358,166.666666666667" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left">
+                                      <uix:NClick.Target>
+                                        <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/nrinternal/download" DesignTimeRectangle="398, 504, 134, 34" ElementType="Button" FriendlyName="'Download Report'" FullSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Internal Invoices - Download Monthly Invoices' /&gt;&lt;webctrl id='buttonDownload' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Internal Invoices - Download Monthly Invoices' /&gt;&lt;webctrl id='buttonDownload' tag='BUTTON' type='button' aaname='Download Report' check:text='Download Report' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIoAAAAmCAYAAAAbWQPxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAANySURBVHhe7Zy7blNBEIZ5IiTIG9Ej0VDAS0TiGRAtaQINTxC5RamcgnSW09hFJDfLzuxtdnfWZ0x8SfA/0q+cc/Yyt+8cx8XxKweDGQygwExWgfL7z4N79+WXe/vhm3v9/it0hqLeEwPEgrQMCg3QpDcfv7uLTz/cxeef0DnK954YIBYkLBkUoogh0RZDZydigZhIlkEhgvAkgbI8C8REsgwKfT6pC6CzFTGRDKBAQwEUyCSAApkEUCCTAApkEkCBTAIokEl7BOXW3TzGDRq7m2nzD6zrpVu5jbu5VsaerHt3tyWvy/kmJN7ZoeKxieNa3KtjU9o7KF3xuGEngOXUoCgNCQCt3VVz/Vh63qCQZmu/qyxQ8/TJwYfrq/ltPI/JPS7dZV5LTaK96K8HYU57JxM+OlBGPqM4Rml1Q0OToy3W/wSKBli1bxVvzG8WbjS2qg5pTrG2bqv5Mo8/rISfbp9pHQeUlDQXITasgSOd10VOzRVNo4byeCxSTrrZtwJlu88ASdukMh6aWWK4WtDg00HhebJp1Q2VIGj85vlhvMBRn4eYZU7b4prWkUARY93TxUs2lY9lsfzd6wuU9qViheO66KSq8HLPKZ/yehQ3hYsaYpd3q+ZbatSQ0DyZW++f/AZfig8Rc5VrkshTGx/FZdHRQVETrIomjilxnxitKcWThbaBMu0zitcI46L2frbnGv2pJmBtfQkruTbxiVgKyGKc93zRoJSkLU1LdxXN5aJRAWgN/c2J9g2s9uaiGX2KpqX9SiN6PyZQZEPi/gEAea0FQaquSbkW/P6foMhHv+VjgJ8kS79fukYFWvt/XDdi/76BI1CmfGoFLI0IeVVNVuEpUhvCMcg12/dQx9uYW/hFntq4GpdRhweFk5PXw7wScHte1pTmxjlVs3cAZcJnW1Q+J0vzG9AYIm+jJo8aEtalmJKfUU7hWMZVP0XCeAG4Pm9zyteUuCzaOyi9lcIM53bBt43VEt8FFNI2n/1Y28RwHix97dwVlOKnhy5Z2TPm57+KZ2san2GKJp96fb28uhvQrj2CAu1X/Y1wSgGUZyuAApkEUKAXKIACmQRQIJMACmQSQIFMUkHBK6VQpdErpXhJHZIavqSOn72AWL73xACxoP7sBRkNEEU0iT6foPMT9Z4YkJCQVaDAYCMDKDCDOfcXPKmye10FxBsAAAAASUVORK5CYII=" InformativeScreenshot="8733899a87892a49f663d27d707a63a1.png" SearchSteps="FuzzySelector, Image" Text="Download Report" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='BUTTON' type='button' /&gt;" />
+                                      </uix:NClick.Target>
+                                    </uix:NClick>
+                                  </Sequence>
+                                </ActivityAction>
+                              </ui:GetLastDownloadedFile.Body>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </ui:GetLastDownloadedFile>
+                            <ueab:ExcelApplicationCard Password="{x:Null}" sap2010:Annotation.AnnotationText="We added a Use Excel File resource, selected a vendor report which we have previously downloaded and referenced it as VendorReport_Template. We opened the text builder and, for the vendor id we selected currentrow vendor and for the month we selected currentrowmonth. Inside the resource we placed 2 write cell activities, one will make a sum of the values in column E and input the result in another column and the next will take that result and subtract it from the ReconciliationFile, using the Total column." DisplayName="Use Excel VendorReport File " sap:VirtualizedContainerService.HintSize="466,817.333333333333" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_3" TemplatePath="VendorReport_Template.xlsx" UseTemplate="True" WorkbookPath="[string.Format(&quot;{0}\Downloads\Report-{1}-{2}.xlsx&quot;, Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), CurrentRow.ByField(&quot;Vendor&quot;), CurrentRow.ByField(&quot;Month&quot;))]">
+                              <ueab:ExcelApplicationCard.Body>
+                                <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="VendorReport" />
+                                  </ActivityAction.Argument>
+                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="454,460.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <ueab:WriteCellX Cell="[VendorReport.Sheet(&quot;Worksheet&quot;).Cell(&quot;H2&quot;)]" DisplayName="Write Cell " sap:VirtualizedContainerService.HintSize="412,164" sap2010:WorkflowViewState.IdRef="WriteCellX_6" Value="[string.Format(&quot;=SUM(E:E)&quot;)]" />
+                                    <ueab:WriteCellX Cell="[CurrentRow.ByField(&quot;Reconcile&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="412,164" sap2010:WorkflowViewState.IdRef="WriteCellX_7" Value="[string.Format(&quot;={0}-{1}&quot;, CurrentRow.ByField(&quot;Total&quot;), VendorReport.Sheet(&quot;Worksheet&quot;).Cell(&quot;H2&quot;))]" />
+                                  </Sequence>
+                                </ActivityAction>
+                              </ueab:ExcelApplicationCard.Body>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </ueab:ExcelApplicationCard>
+                          </Sequence>
+                        </ActivityAction>
+                      </ueab:ExcelForEachRow.Body>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ueab:ExcelForEachRow>
+                  </Sequence>
+                </ActivityAction>
+              </ueab:ExcelApplicationCard.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ueab:ExcelApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQeSURBVGhD7ZgJT+JAHEf9SPsFd+OtXHLI7X1+IGPiZo1ZYoyCoHhk5ea/85t22qEdoGWGbDahyQstMfLedCjTLi22xTbn7fLyki4uLjjn5+d0Bs7O6PQUnNLJCTih4+NjztHRER2Cw0M6AAcHtA/292mPUd7b45TKZSqVyvibZjab/WZ/nPkN4oPBYCJ9L30bZ7/vvsf3+zQcDgmDU6lUEDi/CBHQ6/U4XUHXpdPtSrDjDnsF7Lht77fbHb7f4q8dHoGAj48P+v27grMznwhMm8FgODGgqxHw+flJb29vdHd3h6nVTJqOwJyfdgZ0At7f36nZbNLLywv9ur3F96KZTBqMwBd2nlMI8q+vr9RoNKhWq9HNzU8qFIssImkmAlcbBDjiMwVY8hajARj5er1Oz8/PVK1W6fHxka6vrylfKJiJwKXSFyDJT5s+HHv0VQEQx8gL+YeHB7q/v6erqyvK5fNNW2P2Ddd5J2BE3MKVny0gHo+PJZXOkK0x+4YfKR7gEZ8oD+wA7HvnPz9m1NjoP1VrElV6emJnglGvNyiZTusH4NfVH2AJjg1gx86IS6PvDcDxKG1qtdr0xej1+pRMGQ3ojhEH00ffYlIAk/cE7KRS+gFY22BJ4JcWqOU5ELX3IRl09J2AZFI/AAszdYBHHHRdYX7pZGIj8iEDEjsmAtiK0gpgwgIhLCONPI6FvEUweX/Ajn4AlsRYRfqEBfYZGScPwbCjLwLiCRMBbC2vDPCIW/K2pH0cWH5MQCyR0A/AzYj3OyBLA2fUgf1eMHngl3cC4iYC2F0UzoAsLLDOhi0ovQ+xMPJzDcBtoH8KuWKyuFee73NRFeqpIwdEY3H9ANy/Yt3iCAOPtFd8+siD8fIAS/dILGYqQD2FhIxKXEce8ICogQA8PeixM4APhqB49YH3JUaFZabLf321+Op3Oxo1EFAqW1NIJQ2YVDBxYMlPDmjRHxEQMRBQLJX83wEFamEBkw4k3+byImArEjEQUBwfoJb14sqrhEew5UXA5raBAHaD7XwHwhF81DmSvBuwbSCgEDbAFteQdwK2DATkC4WAATOIA4W8CNjY3NIPyOXHBUjCknRgcaAQFyBg3UxA3g6QZD3CoaQ5rYnygAdsbOoHZHMsgK1L9IQlFLIqELBmJiDHA5QyoZg+6jI8YH1DP2A3qxsQTlyAgFUzAdkZA2YTF/CAtXX9gMxumABLWkdcgIAVMwG7EwJcYRPSMjxgdU0/IJ1BQG9E1LSsCgQsmwhIZTL8n6k+ZJ7gM3+srBoISP/nAXjEjX/2L/i+vGIgIJXmT4nxoBXPKvG4D0/M8NAJjz0Anh7gBhz3sLgNxJ0UbkawnseSGKtKLMywtsHyAL+w+JHCdR6XSlxt8IXFnMeoA8gbCVhsi23StrT0Fx+aZnks0HtQAAAAAElFTkSuQmCC" InformativeScreenshot="1b4d57197477b7838a88c12dca06eccb.png" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard'/&gt;" Url="https://acme-test.uipath.com/reboot-your-skills" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </ueab:SequenceX>
+</Activity>
